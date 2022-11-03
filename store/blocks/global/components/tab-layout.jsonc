@@ -1,0 +1,94 @@
+{
+  "tab-layout#global__container__lastentries__row2__col1--menu": {
+    "title": "contenedor para la lista de entradas",
+    "children": ["tab-list#global__lastentries__tablist","tab-content#All"],
+    "props": {
+      "blockClass": "global__container__lastentries__row2__col1--menu",
+      "defaultActiveTabId": "home"
+    }
+  },
+  "tab-list#global__lastentries__tablist": {
+    "children": [
+      "tab-list.item#All",
+      "tab-list.item#productivity",
+      "tab-list.item#Technology",
+      "tab-list.item#Lifestyle",
+      "tab-list.item#Entertainment",
+      "tab-list.item#FinancialEducation",
+      "tab-list.item#Apps",
+      "tab-list.item#FotnessHealth"
+    ]
+  },
+  "tab-list.item#All": {
+    "title": "Todos",
+    "props": {
+      "tabId": "All",
+      "label": "Todos",
+      "defaultActiveTab": true,
+      "blockClass": "gobal__lastentries__tablist-item"
+    }
+  },
+  "tab-list.item#productivity": {
+    "title": "Productividad",
+    "props": {
+      "tabId": "productivity",
+      "label": "Productividad",
+      "defaultActiveTab": true,
+      "blockClass": "gobal__lastentries__tablist-item"
+    }
+  },
+  "tab-list.item#Technology": {
+    "title": "Tecnología",
+    "props": {
+      "tabId": "Technology",
+      "label": "Tecnología",
+      "defaultActiveTab": true,
+      "blockClass": "gobal__lastentries__tablist-item"
+    }
+  },
+  "tab-list.item#Lifestyle": {
+    "title": "Estilo de vida",
+    "props": {
+      "tabId": "Lifestyle",
+      "label": "Estilo de vida",
+      "defaultActiveTab": true,
+      "blockClass": "gobal__lastentries__tablist-item"
+    }
+  },
+  "tab-list.item#Entertainment": {
+    "title": "Entretenimiento",
+    "props": {
+      "tabId": "Entertainment",
+      "label": "Entretenimiento",
+      "defaultActiveTab": true,
+      "blockClass": "gobal__lastentries__tablist-item"
+    }
+  },
+  "tab-list.item#FinancialEducation": {
+    "title": "Educación Financiera",
+    "props": {
+      "tabId": "FinancialEducation",
+      "label": "Educación Financiera",
+      "defaultActiveTab": true,
+      "blockClass": "gobal__lastentries__tablist-item"
+    }
+  },
+  "tab-list.item#Apps": {
+    "title": "Apps",
+    "props": {
+      "tabId": "Apps",
+      "label": "Apps",
+      "defaultActiveTab": true,
+      "blockClass": "gobal__lastentries__tablist-item"
+    }
+  },
+  "tab-list.item#FotnessHealth": {
+    "title": "Fitness & Health",
+    "props": {
+      "tabId": "FitnessHealth",
+      "label": "Fitness & Health",
+      "defaultActiveTab": true,
+      "blockClass": "gobal__lastentries__tablist-item"
+    }
+  }
+}

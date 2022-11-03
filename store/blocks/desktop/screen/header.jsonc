@@ -1,0 +1,17 @@
+{
+    "header-layout.desktop": {
+      "children": ["header-row#desktop__container-header-top"]
+    },
+    "header-row#desktop__container-header-top": {
+      "props": {
+        "blockClass": "desktop__container-header-top",
+        "fullWidth": true
+      },
+      "children": ["header-spacer","logo","header-spacer","search-bar", "login", "minicart.v2","header-spacer"]
+    },
+    "search-bar":{
+      "props":{
+        "maxWidth": "350px"
+      }
+    }
+  }

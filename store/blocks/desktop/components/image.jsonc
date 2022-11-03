@@ -1,0 +1,75 @@
+{
+  "image#banner__desktop-1": {
+    "props": {
+      "title": "imagen 1 desktop",
+      "src": "assets/images/home/sliders/BANNER_DESKTOP_1.jpg",
+      "maxHeight": "100%"
+    }
+  },
+  "image#banner__desktop-2": {
+    "props": {
+      "src": "assets/images/home/sliders/BANNER_DESKTOP_2.jpg",
+      "maxHeight": "100%"
+    }
+  },
+  "image#banner__desktop-3": {
+    "props": {
+      "src": "assets/images/home/sliders/BANNER_DESKTOP_3.jpg",
+      "maxHeight": "100%"
+    }
+  },
+  "image#banner__desktop-4": {
+    "props": {
+      "src": "assets/images/home/sliders/BANNER_DESKTOP_4.jpg",
+      "maxHeight": "100%"
+    }
+  },
+  "image#banner__desktop-5": {
+    "props": {
+      "src": "assets/images/home/sliders/BANNER_DESKTOP_5.png",
+      "maxHeight": "100%"
+    }
+  },
+  "image#banner__desktop-6": {
+    "props": {
+      "src": "assets/images/home/sliders/BANNER_DESKTOP_6.jpg",
+      "maxHeight": "100%"
+    }
+  },
+  "image#banner__desktop-7": {
+    "props": {
+      "src": "assets/images/home/sliders/BANNER_DESKTOP_7.png",
+      "maxHeight": "100%"
+    }
+  },
+  "image#banner__desktop-8": {
+    "props": {
+      "src": "assets/images/home/sliders/BANNER_DESKTOP_8.jpg",
+      "maxHeight": "100%"
+    }
+  },
+  "image#banner__desktop-9": {
+    "props": {
+      "src": "assets/images/home/sliders/BANNER_DESKTOP_9.png",
+      "maxHeight": "100%"
+    }
+  },
+  "image#banner__desktop-10": {
+    "props": {
+      "src": "assets/images/home/sliders/BANNER_DESKTOP_10.png",
+      "maxHeight": "100%"
+    }
+  },
+  "image#banner__desktop-11": {
+    "props": {
+      "src": "assets/images/home/sliders/BANNER_DESKTOP_11.png",
+      "maxHeight": "100%"
+    }
+  },
+  "image#banner__desktop-12": {
+    "props": {
+      "src": "assets/images/home/sliders/BANNER_DESKTOP_12.png",
+      "maxHeight": "100%"
+    }
+  }
+}

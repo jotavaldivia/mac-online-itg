@@ -1,0 +1,28 @@
+.listItem--gobal__lastentries__tablist-item :global(.vtex-button__label) {
+  color: var(--fourth-color);
+  font-size: 0.8rem;
+  text-transform: capitalize;
+  padding-right: 0px;
+  font-weight: bold;
+}
+
+.listItem--gobal__lastentries__tablist-item :global(.vtex-button__label){
+    transition:color 0.8s;
+}
+.listItem--gobal__lastentries__tablist-item :global(.vtex-button__label):hover,
+.listItem--gobal__lastentries__tablist-item :global(.vtex-button ):hover
+{
+  color: var(--third-color);
+}
+.listItem--gobal__lastentries__tablist-item :global(.vtex-button) {
+  border: 0px;
+  background-color: white ;
+}
+.listItemActive--gobal__lastentries__tablist-item :global(.vtex-button__label){
+  color: var(--third-color);
+}
+
+.container--global__container__lastentries__row2__col1--menu :global(.vtex-tab-layout-0-x-contentItem){
+display: flex;
+justify-content: space-around;
+}

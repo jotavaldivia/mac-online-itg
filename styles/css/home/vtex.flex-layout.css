@@ -1,0 +1,18 @@
+.flexRow--desktop__container--row1{
+    /* margin: 0rem 6rem; */
+    max-width: 75vw;
+    margin: 0 auto;
+}
+.flexRowContent--desktop__container--row1{
+justify-content: space-around;
+}
+
+/* estilos ultimas entradas */
+.flexRow--global__container__lastentries__row1{
+margin-top: 2rem;
+}
+
+.flexRow--global__container__lastentries__row2{
+    max-width: 75vw;
+    margin: 0 auto;
+}

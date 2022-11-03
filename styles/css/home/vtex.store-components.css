@@ -1,0 +1,46 @@
+/* estilos para info card seccion productos destacados  */
+.infoCardContainer--global__info-card {
+  flex-direction: column-reverse;
+  margin-bottom: 2.5rem;
+}
+.infoCardTextContainer--global__info-card {
+  width: 100%;
+  color: var(--fourth-color);
+}
+.infoCardImageContainer--global__info-card {
+  width: 100%;
+}
+.infoCardContainer--global__info-card {
+  border: 1px solid rgba(51, 51, 51, 0.1);
+}
+.infoCardHeadline--global__info-card {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.infoCardSubhead--global__info-card {
+  color: var(--fourth-color);
+  font-size: 0.8rem;
+  font-weight: 100;
+}
+.infoCardCallActionContainer--global__info-card {
+  display: none;
+}
+
+/* estilos para info card seccion ultimas entradas  */
+.infoCardContainer--global__container__lastentries__info-card {
+  position: relative;
+  max-width: 23vw;
+}
+
+.infoCardTextContainer--global__container__lastentries__info-card {
+  width: 90%;
+  margin: 10px;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.infoCardHeadline--global__container__lastentries__info-card {
+  font-size: 0.9rem;
+  margin-top: 0px;
+  padding: 10px;
+}

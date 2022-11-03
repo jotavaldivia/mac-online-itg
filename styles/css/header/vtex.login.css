@@ -1,0 +1,12 @@
+/* .container {
+width: 70px;
+line-height: 2rem;
+}
+.label {
+  visibility: hidden;
+}
+
+.label::before {
+  content: url("assets/svgs/login.svg");
+  visibility: visible;
+} */

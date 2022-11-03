@@ -1,0 +1,231 @@
+{
+  "info-card#global__info-card1": {
+    "props": {
+      "id": "info-card-example",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/images/home/info-cards/info-card_1.png",
+      "headline": "Destacado de la semana",
+      "subhead": "Funda Back Cover de Decoded para iPhone 14 hecha con silicona de alto rendimiento; suave y para un mejor agarre. Compatible con MagSafe. Disponible en negro, olivo y azul a $24.990.",
+      // "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "global__info-card",
+      "textAlignment": "center",
+      "linkTarget": "www.google.cl",
+      "imageActionUrl": "www.google.cl"
+    }
+  },
+  "info-card#global__info-card2": {
+    "props": {
+      "id": "info-card-example",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/images/home/info-cards/info-card_2.png",
+      "headline": "New Arrival",
+      "subhead": "Con el cargador para auto Belkin BOOSTCHARGE USB-C y USB-A de 32 W podrás cargar tu iPhone de 0 a 50 % en 30 minutos. Permite  dos dispositivos al mismo tiempo. Lleva el tuyo por $14.990.",
+      // "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "global__info-card",
+      "textAlignment": "center",
+      "linkTarget": "www.google.cl",
+      "imageActionUrl": "www.google.cl"
+    }
+  },
+  "info-card#global__info-card3": {
+    "props": {
+      "id": "info-card-example",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/images/home/info-cards/info-card_3.png",
+      "headline": "Destacado del mes",
+      "subhead": "Conecta todos tus dispositivos a tu MacBook con el adaptador USB-C multipuerto con HDMI Gmode. Con entradas para USB-A, USB-C, HDMI y lector de tarjetas SDXC. Llévalo por $39.990.",
+      "callToActionText": "DISCOVER",
+      // "callToActionUrl": "/sale/d",
+      "blockClass": "global__info-card",
+      "textAlignment": "center",
+      "linkTarget": "www.google.cl",
+      "imageActionUrl": "www.google.cl"
+    }
+  },
+  // info cards para tab layout ultimas entradas
+  "info-card#global__container__lastentries__all-1": {
+    "props": {
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/images/home/info-cards/info-card_all_1.png",
+      "headline": "¿Cómo transferir datos de tu PC o Mac anterior a tu nuevo equipo?",
+      "blockClass": [
+        "global__info-card",
+        "global__container__lastentries__info-card"
+      ],
+      "textAlignment": "center",
+      "linkTarget": "www.google.cl",
+      "imageActionUrl": "www.google.cl"
+    }
+  },
+  "info-card#global__container__lastentries__all-2": {
+    "props": {
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/images/home/info-cards/info-card_all_2.png",
+      "headline": "iOS 16 ya está disponible para iPhone",
+      "blockClass": [
+        "global__info-card",
+        "global__container__lastentries__info-card"
+      ],
+      "textAlignment": "center",
+      "linkTarget": "www.google.cl",
+      "imageActionUrl": "www.google.cl"
+    }
+  },
+  "info-card#global__container__lastentries__all-3": {
+    "props": {
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/images/home/info-cards/info-card_all_3.png",
+      "headline": "La red 5G se disfruta más en un iPhone",
+      "blockClass": [
+        "global__info-card",
+        "global__container__lastentries__info-card"
+      ],
+      "textAlignment": "center",
+      "linkTarget": "www.google.cl",
+      "imageActionUrl": "www.google.cl"
+    }
+  },
+  "info-card#global__container__lastentries__productivity-1": {
+    "props": {
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/images/home/info-cards/info-card_productivity_1.png",
+      "headline": "App recomendadas para el teletrabajo.",
+      "blockClass": [
+        "global__info-card",
+        "global__container__lastentries__info-card"
+      ],
+      "textAlignment": "center",
+      "linkTarget": "www.google.cl",
+      "imageActionUrl": "www.google.cl"
+    }
+  },
+  "info-card#global__container__lastentries__productivity-2": {
+    "props": {
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/images/home/info-cards/info-card_productivity_2.png",
+      "headline": "Aprende a utilizar Buscar mi iPhone.",
+      "blockClass": [
+        "global__info-card",
+        "global__container__lastentries__info-card"
+      ],
+      "textAlignment": "center",
+      "linkTarget": "www.google.cl",
+      "imageActionUrl": "www.google.cl"
+    }
+  },
+  "info-card#global__container__lastentries__productivity-3": {
+    "props": {
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/images/home/info-cards/info-card_productivity_3.png",
+      "headline": "Recupera tu contraseña de tu Apple ID.",
+      "blockClass": [
+        "global__info-card",
+        "global__container__lastentries__info-card"
+      ],
+      "textAlignment": "center",
+      "linkTarget": "www.google.cl",
+      "imageActionUrl": "www.google.cl"
+    }
+  },
+  "info-card#global__container__lastentries__technology-1": {
+    "props": {
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/images/home/info-cards/info-card_productivity_3.png",
+      "headline": "Recupera tu contraseña de tu Apple ID.",
+      "blockClass": [
+        "global__info-card",
+        "global__container__lastentries__info-card"
+      ],
+      "textAlignment": "center",
+      "linkTarget": "www.google.cl",
+      "imageActionUrl": "www.google.cl"
+    }
+  },
+  "info-card#global__container__lastentries__lifestyle-1": {
+    "props": {
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/images/home/info-cards/info-card_productivity_2.png",
+      "headline": "Recupera tu contraseña de tu Apple ID.",
+      "blockClass": [
+        "global__info-card",
+        "global__container__lastentries__info-card"
+      ],
+      "textAlignment": "center",
+      "linkTarget": "www.google.cl",
+      "imageActionUrl": "www.google.cl"
+    }
+  },
+  "info-card#global__container__lastentries__entertainment-1": {
+    "props": {
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/images/home/info-cards/info-card_productivity_1.png",
+      "headline": "Recupera tu contraseña de tu Apple ID.",
+      "blockClass": [
+        "global__info-card",
+        "global__container__lastentries__info-card"
+      ],
+      "textAlignment": "center",
+      "linkTarget": "www.google.cl",
+      "imageActionUrl": "www.google.cl"
+    }
+  },
+  "info-card#global__container__lastentries__financialEducation-1": {
+    "props": {
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/images/home/info-cards/info-card_productivity_3.png",
+      "headline": "Recupera tu contraseña de tu Apple ID.",
+      "blockClass": [
+        "global__info-card",
+        "global__container__lastentries__info-card"
+      ],
+      "textAlignment": "center",
+      "linkTarget": "www.google.cl",
+      "imageActionUrl": "www.google.cl"
+    }
+  },
+  "info-card#global__container__lastentries__apps-1": {
+    "props": {
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/images/home/info-cards/info-card_productivity_2.png",
+      "headline": "Recupera tu contraseña de tu Apple ID.",
+      "blockClass": [
+        "global__info-card",
+        "global__container__lastentries__info-card"
+      ],
+      "textAlignment": "center",
+      "linkTarget": "www.google.cl",
+      "imageActionUrl": "www.google.cl"
+    }
+  },
+  "info-card#global__container__lastentries__fitnessHealth-1": {
+    "props": {
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/images/home/info-cards/info-card_productivity_3.png",
+      "headline": "Recupera tu contraseña de tu Apple ID.",
+      "blockClass": [
+        "global__info-card",
+        "global__container__lastentries__info-card"
+      ],
+      "textAlignment": "center",
+      "linkTarget": "www.google.cl",
+      "imageActionUrl": "www.google.cl"
+    }
+  }
+}

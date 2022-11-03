@@ -1,0 +1,6 @@
+.headerRowBackground--desktop__container-header-top{
+  background-color:   var(--primary-color);
+}
+.headerRowContainer--desktop__container-header-top{
+  justify-content: center;
+}

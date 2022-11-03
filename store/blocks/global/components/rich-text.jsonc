@@ -1,0 +1,37 @@
+{
+  "rich-text#global__headband--store": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Encuentra tu tienda más cercana](https://google.cl)",
+      "blockClass": "global__headband--store"
+    }
+  },
+  "rich-text#global__section1--title": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "# Productos Destacados",
+      "font": "SourceSansPro-Ligth",
+      "blockClass": "global__section--title"
+    }
+  },
+  "rich-text#global__container__lastentries__row1__col1--title": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "## Últimas entradas",
+      "font": "SourceSansPro-Ligth",
+      "blockClass": "global__container__lastentries__row1__col1--title"
+    }
+  },
+  "rich-text#global__container__lastentries__row3--button": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Ver todo](https://google.cl)",
+      "font": "SourceSansPro-Ligth",
+      "blockClass": "global__container__lastentries__row3--button"
+    }
+  }
+}

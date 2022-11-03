@@ -1,0 +1,74 @@
+{
+    "image#banner_mobile-1": {
+      "props": {
+        "src": "assets/images/home/sliders/BANNER_MOBILE_1.jpg",
+        "maxHeight": "100%"
+      }
+    },
+    "image#banner_mobile-2": {
+      "props": {
+        "src": "assets/images/home/sliders/BANNER_MOBILE_2.jpg",
+        "maxHeight": "100%"
+      }
+    },
+    "image#banner_mobile-3": {
+      "props": {
+        "src": "assets/images/home/sliders/BANNER_MOBILE_3.jpg",
+        "maxHeight": "100%"
+      }
+    },
+    "image#banner_mobile-4": {
+      "props": {
+        "src": "assets/images/home/sliders/BANNER_MOBILE_4.jpg",
+        "maxHeight": "100%"
+      }
+    },
+    "image#banner_mobile-5": {
+      "props": {
+        "src": "assets/images/home/sliders/BANNER_MOBILE_5.png",
+        "maxHeight": "100%"
+      }
+    },
+    "image#banner_mobile-6": {
+      "props": {
+        "src": "assets/images/home/sliders/BANNER_MOBILE_6.jpg",
+        "maxHeight": "100%"
+      }
+    },
+    "image#banner_mobile-7": {
+      "props": {
+        "src": "assets/images/home/sliders/BANNER_MOBILE_7.png",
+        "maxHeight": "100%"
+      }
+    },
+    "image#banner_mobile-8": {
+      "props": {
+        "src": "assets/images/home/sliders/BANNER_MOBILE_8.jpg",
+        "maxHeight": "100%"
+      }
+    },
+    "image#banner_mobile-9": {
+      "props": {
+        "src": "assets/images/home/sliders/BANNER_MOBILE_9.png",
+        "maxHeight": "100%"
+      }
+    },
+    "image#banner_mobile-10": {
+      "props": {
+        "src": "assets/images/home/sliders/BANNER_MOBILE_10.png",
+        "maxHeight": "100%"
+      }
+    },
+    "image#banner_mobile-11": {
+      "props": {
+        "src": "assets/images/home/sliders/BANNER_MOBILE_11.png",
+        "maxHeight": "100%"
+      }
+    },
+    "image#banner_mobile-12": {
+      "props": {
+        "src": "assets/images/home/sliders/BANNER_MOBILE_12.png",
+        "maxHeight": "100%"
+      }
+    }
+  }

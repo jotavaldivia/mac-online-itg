@@ -1,0 +1,90 @@
+{
+  "store.home": {
+    "blocks": [
+      "rich-text#global__headband--store",
+      "responsive-layout.desktop",
+      "responsive-layout.tablet",
+      "responsive-layout.phone"
+    ]
+  },
+  "responsive-layout.desktop": {
+    "children": [
+      "slider-layout#desktop__silder-1",
+      "flex-layout.row#global__container__FeaturedProducts__row1",
+      "flex-layout.row#desktop__container--row1",
+      "flex-layout.row#desktop__container--row1",
+      "flex-layout.row#desktop__container--row1",
+      "flex-layout.row#global__container__lastentries__row1",
+      "flex-layout.row#global__container__lastentries__row2",
+      "flex-layout.row#global__container__lastentries__row3"
+    ]
+  },
+  "responsive-layout.tablet": {
+    "children": [
+      "slider-layout#tablet__silder-1",
+      "flex-layout.row#global__container__FeaturedProducts__row1",
+      "flex-layout.row#tablet__container--row1",
+      "flex-layout.row#tablet__container--row1",
+      "flex-layout.row#tablet__container--row1",
+      "flex-layout.row#global__container__lastentries__row1",
+      "flex-layout.row#global__container__lastentries__row2",
+      "flex-layout.row#global__container__lastentries__row3"
+    ]
+  },
+  "responsive-layout.phone": {
+    "children": [
+      "slider-layout#mobile__silder-1",
+      "flex-layout.row#global__container__FeaturedProducts__row1",
+      "flex-layout.row#mobile__container--row1",
+      "flex-layout.row#mobile__container--row1",
+      "flex-layout.row#mobile__container--row1",
+      "flex-layout.row#global__container__lastentries__row1",
+      "flex-layout.row#global__container__lastentries__row2",
+      "flex-layout.row#global__container__lastentries__row3"
+    ]
+  },
+
+  "flex-layout.row#global__container__FeaturedProducts__row1": {
+    "title": "seccion para titulo productos destacados",
+    "children": [ "rich-text#global__section1--title"],
+    "props": {
+      "blockClass": "global__container__FeaturedProducts__row1"
+    }
+  },
+
+  "flex-layout.row#global__container__lastentries__row1": {
+    "title": "seccion para titulo ultimas entradas",
+    "children": [ "flex-layout.col#global__container__lastentries__row1__col1"],
+    "props": {
+      "blockClass": "global__container__lastentries__row1"
+    }
+  },
+  "flex-layout.col#global__container__lastentries__row1__col1": {
+    "children": ["rich-text#global__container__lastentries__row1__col1--title"],
+    "props": {
+      "blockClass":["global__container__lastentries__row1__col1"],
+      "width":"100%"
+    }
+  },
+  "flex-layout.row#global__container__lastentries__row2": {
+    "title": "seccion para las ultimas entradas",
+    "children": [ "flex-layout.col#global__container__lastentries__row2__col1"],
+    "props": {
+      "blockClass": "global__container__lastentries__row2"
+    }
+  },
+  "flex-layout.col#global__container__lastentries__row2__col1": {
+    "children": ["tab-layout#global__container__lastentries__row2__col1--menu"],
+    "props": {
+      "blockClass":["global__container__lastentries__row2__col1"],
+      "width":"100%"
+    }
+  },
+  "flex-layout.row#global__container__lastentries__row3": {
+    "title": "seccion para el boton de las ultimas entradas",
+    "children": [ "rich-text#global__container__lastentries__row3--button"],
+    "props": {
+      "blockClass": "global__container__lastentries__row2"
+    }
+  }
+}
