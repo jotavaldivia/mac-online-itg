@@ -4,7 +4,7 @@
     "children": ["tab-list#global__lastentries__tablist","tab-content#All"],
     "props": {
       "blockClass": "global__container__lastentries__row2__col1--menu",
-      "defaultActiveTabId": "home"
+      "defaultActiveTabId": "All"
     }
   },
   "tab-list#global__lastentries__tablist": {
@@ -33,7 +33,6 @@
     "props": {
       "tabId": "productivity",
       "label": "Productividad",
-      "defaultActiveTab": true,
       "blockClass": "gobal__lastentries__tablist-item"
     }
   },
@@ -42,7 +41,6 @@
     "props": {
       "tabId": "Technology",
       "label": "Tecnología",
-      "defaultActiveTab": true,
       "blockClass": "gobal__lastentries__tablist-item"
     }
   },
@@ -51,7 +49,6 @@
     "props": {
       "tabId": "Lifestyle",
       "label": "Estilo de vida",
-      "defaultActiveTab": true,
       "blockClass": "gobal__lastentries__tablist-item"
     }
   },
@@ -60,7 +57,6 @@
     "props": {
       "tabId": "Entertainment",
       "label": "Entretenimiento",
-      "defaultActiveTab": true,
       "blockClass": "gobal__lastentries__tablist-item"
     }
   },
@@ -69,7 +65,6 @@
     "props": {
       "tabId": "FinancialEducation",
       "label": "Educación Financiera",
-      "defaultActiveTab": true,
       "blockClass": "gobal__lastentries__tablist-item"
     }
   },
@@ -78,7 +73,6 @@
     "props": {
       "tabId": "Apps",
       "label": "Apps",
-      "defaultActiveTab": true,
       "blockClass": "gobal__lastentries__tablist-item"
     }
   },
@@ -87,7 +81,6 @@
     "props": {
       "tabId": "FitnessHealth",
       "label": "Fitness & Health",
-      "defaultActiveTab": true,
       "blockClass": "gobal__lastentries__tablist-item"
     }
   }

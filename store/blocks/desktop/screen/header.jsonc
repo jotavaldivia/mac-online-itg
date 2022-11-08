@@ -1,6 +1,6 @@
 {
     "header-layout.desktop": {
-      "children": ["header-row#desktop__container-header-top"]
+      "children": ["header-row#desktop__container-header-top", "header-row#desktop__container-header-middle"]
     },
     "header-row#desktop__container-header-top": {
       "props": {
@@ -9,9 +9,11 @@
       },
       "children": ["header-spacer","logo","header-spacer","search-bar", "login", "minicart.v2","header-spacer"]
     },
-    "search-bar":{
-      "props":{
-        "maxWidth": "350px"
-      }
+    "header-row#desktop__container-header-middle": {
+      "props": {
+        "blockClass": "desktop__container-header-middle",
+        "fullWidth": true
+      },
+      "children": ["vtex.menu@2.x:menu#global__websites"]
     }
   }

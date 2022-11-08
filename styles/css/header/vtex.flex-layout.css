@@ -1,8 +1,12 @@
+.flexRowContent--minicart__footer{
+flex-direction: column;
+/* align-items: center; */
+}
 
-/* .flexCol--desktop__elements{
-
-} */
-
-/* .flexCol--desktop__header-space{
-    width: 30vw;
-} */
+.flexRowContent--minicart__footer :global(.vtex-button){
+width: 300px;
+background-color: white;
+color: var(--fourth-color);
+border: 1px solid #333333;
+border-radius:  5px;
+}
