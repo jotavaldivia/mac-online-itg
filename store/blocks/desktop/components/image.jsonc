@@ -71,5 +71,22 @@
       "src": "assets/images/home/sliders/BANNER_DESKTOP_12.png",
       "maxHeight": "100%"
     }
-  }
+  },
+  "image#desktop__footer__row2__col3--img1": {
+    "props": {
+      "src": "assets/images/footer/footer_webpay.png",
+      "maxHeight": "100%"
+    }
+  },
+  "image#desktop__footer__row2__col4--img1":{  
+     "props": {
+    "src": "assets/images/footer/footer_adobe.png",
+    "maxHeight": "100%"
+  }},
+  "image#desktop__footer__row3__col1--img1":{  
+    "props": {
+   "src": "assets/images/footer/footer_maconline.png",
+   "maxHeight": "100%"
+ }}
 }
+

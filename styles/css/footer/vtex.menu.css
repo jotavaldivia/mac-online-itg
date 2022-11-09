@@ -1,0 +1,18 @@
+.menuContainer--global__footer_menu--us {
+  flex-direction: column;
+}
+.menuContainer--global__footer_menu--us
+  :global(.vtex-menu-2-x-styledLinkContent) {
+  font-size: 0.8rem;
+  color: var(--secundary-color);
+  flex-direction: column;
+}
+.menuContainer--global__footer_menu--products
+  :global(.vtex-menu-2-x-styledLinkContent) {
+  font-size: 0.8rem;
+  color: var(--secundary-color);
+  flex-direction: column;
+}
+.menuContainer--global__footer_menu--products {
+  flex-direction: column;
+}

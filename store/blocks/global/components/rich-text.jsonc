@@ -33,5 +33,162 @@
       "font": "SourceSansPro-Ligth",
       "blockClass": "global__container__lastentries__row3--button"
     }
+  },
+  // texto para sucursales
+  "rich-text#global__footer__row1__col1--text1": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Encuentra tu tienda más cercana](https://google.cl)",
+      "font": "SourceSansPro-Ligth",
+      "blockClass": "global__footer__row1__col1--text"
+    }
+  },
+  // texto menu para el footer col 1
+  "rich-text#global__footer__row2__col1--text1": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "[NOSOTROS](https://google.cl)",
+      "font": "SourceSansPro-Ligth",
+      "blockClass": "global__footer__row2__col1--text1"
+    }
+  },
+  // "rich-text#global__footer__row2__col1--text2": {
+  //   "props": {
+  //     "textAlignment": "CENTER",
+  //     "textPosition": "CENTER",
+  //     "text": "[Tiendas](https://google.cl)",
+  //     "font": "SourceSansPro-Ligth",
+  //     "blockClass": "desktop__footer__row2--text"
+  //   }
+  // },
+  // "rich-text#desktop__footer__row2__col1--text3": {
+  //   "props": {
+  //     "textAlignment": "CENTER",
+  //     "textPosition": "CENTER",
+  //     "text": "[Preguntas Frecuentes](https://google.cl)",
+  //     "font": "SourceSansPro-Ligth",
+  //     "blockClass": "desktop__footer__row2--text"
+  //   }
+  // },
+  // "rich-text#desktop__footer__row2__col1--text4": {
+  //   "props": {
+  //     "textAlignment": "CENTER",
+  //     "textPosition": "CENTER",
+  //     "text": "[Soporte](https://google.cl)",
+  //     "font": "SourceSansPro-Ligth",
+  //     "blockClass": "desktop__footer__row2--text"
+  //   }
+  // },
+  // "rich-text#desktop__footer__row2__col1--text5": {
+  //   "props": {
+  //     "textAlignment": "CENTER",
+  //     "textPosition": "CENTER",
+  //     "text": "[Consultas](https://google.cl)",
+  //     "font": "SourceSansPro-Ligth",
+  //     "blockClass": "desktop__footer__row2--text"
+  //   }
+  // },
+  // "rich-text#desktop__footer__row2__col1--text6": {
+  //   "props": {
+  //     "textAlignment": "CENTER",
+  //     "textPosition": "CENTER",
+  //     "text": "[Términos y Condiciones](https://google.cl)",
+  //     "font": "SourceSansPro-Ligth",
+  //     "blockClass": "desktop__footer__row2--text"
+  //   }
+  // },
+  // "rich-text#desktop__footer__row2__col1--text7": {
+  //   "props": {
+  //     "textAlignment": "CENTER",
+  //     "textPosition": "CENTER",
+  //     "text": "[Trabaja con nosotros](https://google.cl)",
+  //     "font": "SourceSansPro-Ligth",
+  //     "blockClass": "desktop__footer__row2--text"
+  //   }
+  // },
+  // "rich-text#desktop__footer__row2__col1--text8": {
+  //   "props": {
+  //     "textAlignment": "CENTER",
+  //     "textPosition": "CENTER",
+  //     "text": "[Canal de Integridad](https://google.cl)",
+  //     "font": "SourceSansPro-Ligth",
+  //     "blockClass": "desktop__footer__row2--text"
+  //   }
+  // },
+  // // texto menu para el footer col 2
+  "rich-text#global__footer__row2__col2--text1": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "[PRODUCTOS](https://google.cl)",
+      "font": "SourceSansPro-Ligth",
+      "blockClass": "global__footer__row2__col2--text1"
+    }
+  },
+  // "rich-text#desktop__footer__row2__col2--text2": {
+  //   "props": {
+  //     "textAlignment": "CENTER",
+  //     "textPosition": "CENTER",
+  //     "text": "[Mac](https://google.cl)",
+  //     "font": "SourceSansPro-Ligth",
+  //     "blockClass": "desktop__footer__row2--text"
+  //   }
+  // },
+  // "rich-text#desktop__footer__row2__col2--text3": {
+  //   "props": {
+  //     "textAlignment": "CENTER",
+  //     "textPosition": "CENTER",
+  //     "text": "[iPad](https://google.cl)",
+  //     "font": "SourceSansPro-Ligth",
+  //     "blockClass": "desktop__footer__row2--text"
+  //   }
+  // },
+  // "rich-text#desktop__footer__row2__col2--text4": {
+  //   "props": {
+  //     "textAlignment": "CENTER",
+  //     "textPosition": "CENTER",
+  //     "text": "[iPhone](https://google.cl)",
+  //     "font": "SourceSansPro-Ligth",
+  //     "blockClass": "desktop__footer__row2--text"
+  //   }
+  // },
+  // "rich-text#desktop__footer__row2__col2--text5": {
+  //   "props": {
+  //     "textAlignment": "CENTER",
+  //     "textPosition": "CENTER",
+  //     "text": "[Watch](https://google.cl)",
+  //     "font": "SourceSansPro-Ligth",
+  //     "blockClass": "desktop__footer__row2--text"
+  //   }
+  // },
+  // "rich-text#desktop__footer__row2__col2--text6": {
+  //   "props": {
+  //     "textAlignment": "CENTER",
+  //     "textPosition": "CENTER",
+  //     "text": "[Aplle Tv](https://google.cl)",
+  //     "font": "SourceSansPro-Ligth",
+  //     "blockClass": "desktop__footer__row2--text"
+  //   }
+  // },
+  // texto menu para el footer col 3
+  "rich-text#global__footer__row2__col3--text1": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "[MEDIOS DE PAGO](https://google.cl)",
+      "font": "SourceSansPro-Ligth",
+      "blockClass": "global__footer__row2__col3--text1"
+    }
+  },
+  "rich-text#global__footer__row2__col4--text1": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Ventas, cursos y \n  programas Área \n corporativa",
+      "font": "SourceSansPro-Ligth",
+      "blockClass": "global__footer__row2__col4--text1"
+    }
   }
 }
