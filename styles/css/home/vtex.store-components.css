@@ -44,3 +44,9 @@
   margin-top: 0px;
   padding: 10px;
 }
+
+@media (max-width: 700px) {
+.infoCardContainer--global__container__lastentries__info-card {
+    max-width: 100vw;
+}
+}

@@ -1,0 +1,28 @@
+.menuContainer--global__footer_menu--us {
+  flex-direction: column;
+}
+.menuContainer--global__footer_menu--us
+  :global(.vtex-menu-2-x-styledLinkContent) {
+  font-size: 0.8rem;
+  color: var(--secundary-color);
+  flex-direction: column;
+}
+.menuContainer--global__footer_menu--products
+  :global(.vtex-menu-2-x-styledLinkContent) {
+  font-size: 0.8rem;
+  color: var(--secundary-color);
+  flex-direction: column;
+}
+.menuContainer--global__footer_menu--products {
+  flex-direction: column;
+}
+/* "estilos para fotter mobile" */
+@media (max-width: 720px) {
+  .menuContainer--global__footer_menu--us,
+  .menuContainer--global__footer_menu--products {
+    align-items: center;
+  }
+  .menuContainer--global__footer_menu--us :global(.vtex-menu-2-x-menuItem), .menuContainer--global__footer_menu--products :global(.vtex-menu-2-x-menuItem)  {
+    height: 25px;
+  }
+}

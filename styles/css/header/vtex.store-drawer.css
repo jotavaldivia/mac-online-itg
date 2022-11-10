@@ -1,0 +1,31 @@
+.openIconContainer--mobile__drower {
+  margin-left: 1rem;
+}
+
+@media (max-width: 1024px) {
+  .childrenContainer--mobile__drower :global(.vtex-menu-2-x-menuContainerNav) {
+    width: 95%;
+  }
+  .drawer--mobile__drower {
+    width: 100% !important;
+    max-width: 1300px !important;
+    left: 0px;
+    bottom: auto;
+    top: 106px;
+  }
+  .overlay--mobile__drower {
+    bottom: auto;
+  }
+  .closeIconContainer--mobile__drower {
+    background-color: var(--primary-color);
+    position: absolute;
+    top: -60px;
+    left: 10px;
+  }
+  .closeIconButton--mobile__drower{
+    background-color: #2C2C2C;
+  }
+  .closeIcon{
+    color: white;
+  }
+}

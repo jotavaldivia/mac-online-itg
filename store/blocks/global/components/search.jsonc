@@ -1,0 +1,31 @@
+{
+    "search-bar": {
+      "blocks": ["autocomplete-result-list.v2"],
+      "props": {
+        "openAutocompleteOnFocus": true
+      }
+    }
+    // "search-result-layout.customQuery#gloabl_search": {
+    //   "blocks": [
+    //     "search-result-layout.desktop",
+    //     "search-result-layout.mobile",
+    //     "search-not-found-layout"
+    //   ],
+    //   "props": {
+    //     "querySchema": {
+    //       "skusFilter": "ALL_AVAILABLE",
+    //       "simulationBehavior": "skip"
+    //     }
+    //   }
+    // }
+    //  "search-result-layout.desktop":{
+    //   "children":[
+    //     "rich-text#global__section1--title"
+    //   ]
+    //  },
+    //  "search-result-layout.mobile":{
+    //   "children":[
+    //     "rich-text#global__section1--title"
+    //   ]
+    //  }
+  }

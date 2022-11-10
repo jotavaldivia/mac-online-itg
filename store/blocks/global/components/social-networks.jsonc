@@ -1,0 +1,12 @@
+{
+    "social-networks#global__footer": {
+        "props": {
+          "socialNetworks": [
+            { "url": "https://facebook.com/foo", "name": "Facebook" },
+            { "url": "https://twitter.com/foo", "name": "Twitter" },
+            { "url": "https://twitter.com/foo", "name": "pinterest" },
+            { "url": "https://twitter.com/foo", "name": "linkedin" }
+          ]
+        }
+      }
+}
