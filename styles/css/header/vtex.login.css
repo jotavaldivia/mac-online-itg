@@ -1,12 +1,14 @@
-/* .container {
-width: 70px;
-line-height: 2rem;
+:global(.vtex-login-2-x-label) {
+  display: none;
 }
-.label {
-  visibility: hidden;
+.container :global(.vtex-button__label) {
+  padding-right: 0px;
+}
+.profileIcon {
+  width: 27px;
+  height: 34px;
 }
 
-.label::before {
-  content: url("assets/svgs/login.svg");
-  visibility: visible;
-} */
+.container :global(.vtex-button):hover {
+  background-color: var(--primary-color);
+}

@@ -1,0 +1,10 @@
+.openIconContainer {
+  padding: 0px;
+}
+.cartIcon {
+  width: 26px;
+  height: 34px;
+}
+.openIconContainer :global(.vtex-button):hover {
+  background-color: var(--primary-color);
+}

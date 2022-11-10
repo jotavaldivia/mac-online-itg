@@ -1,0 +1,17 @@
+.newsletterForm--global__footer__form {
+  width: 330px;
+}
+.newsletterForm--global__footer__form :global(.vtex-button) {
+  margin-top: 1rem;
+  width: 100%;
+  background-color: var(--third-color);
+  border: transparent;
+  text-transform: lowercase;
+}
+.newsletterForm--global__footer__form :global(.vtex-input__label) {
+  color: white;
+  padding-top: 0.5rem;
+}
+/* .newsletterForm--global__footer__form :global(.vtex-input-prefix__group) {
+background-color: rgb(168, 109, 22);
+} */

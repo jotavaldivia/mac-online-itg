@@ -26,3 +26,10 @@
 display: flex;
 justify-content: space-around;
 }
+
+@media (max-width: 700px) {
+  .container--global__container__lastentries__row2__col1--menu :global(.vtex-tab-layout-0-x-contentItem){
+flex-direction: column;
+  }
+}
+

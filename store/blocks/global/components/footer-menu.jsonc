@@ -1,0 +1,118 @@
+{
+    "vtex.menu@2.x:menu#global__footer_menu--us": {
+        "children": [
+            "menu-item#tiendas",   "menu-item#frequentQuestions", "menu-item#support",    "menu-item#queries","menu-item#TermsAndConditions",
+            "menu-item#WorkWithUs", "menu-item#IntegrityChannel"
+        ],
+        "props": {
+            "blockClass": ["global__footer_menu--us"]
+        }
+      },
+      "menu-item#tiendas": {
+        "props": {
+          "id": "menu-item-tiendas",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "https://www.maconline.com/t/mac",
+            "noFollow": false,
+            "tagTitle": "Tiendas",
+            "text": "Tiendas"
+          }
+      }
+    },
+    "menu-item#frequentQuestions": {
+        "props": {
+          "id": "menu-item-frequentQuestions",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "https://www.maconline.com/t/mac",
+            "noFollow": false,
+            "tagTitle": "frequentQuestions",
+            "text": "Preguntas Frecuentes"
+          }
+      }
+    },
+    "menu-item#support": {
+        "props": {
+          "id": "menu-item-support",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "https://www.maconline.com/t/mac",
+            "noFollow": false,
+            "tagTitle": "support",
+            "text": "Soporte"
+          }
+      }
+    },
+    "menu-item#queries": {
+        "props": {
+          "id": "menu-item-queries",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "https://www.maconline.com/t/mac",
+            "noFollow": false,
+            "tagTitle": "",
+            "text": "Consultas"
+          }
+      }
+    },
+    "menu-item#TermsAndConditions": {
+        "props": {
+          "id": "menu-item-TermsAndConditions",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "https://www.maconline.com/t/mac",
+            "noFollow": false,
+            "tagTitle": "TermsAndConditions",
+            "text": "Términos y Condiciones"
+          }
+      }
+    },
+    "menu-item#WorkWithUs": {
+        "props": {
+          "id": "menu-item-WorkWithUs",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "https://www.maconline.com/t/mac",
+            "noFollow": false,
+            "tagTitle": "WorkWithUs",
+            "text": "Trabaja con nosotros"
+          }
+      }
+    },
+    "menu-item#IntegrityChannel": {
+        "props": {
+          "id": "menu-item-IntegrityChannel",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "https://www.maconline.com/t/mac",
+            "noFollow": false,
+            "tagTitle": "IntegrityChannel",
+            "text": "Canal de Integridad"
+          }
+      }
+    },
+    "vtex.menu@2.x:menu#global__footer_menu--products": {
+        "children": [
+            "menu-item#mac","menu-item#ipad", "menu-item#iphone","menu-item#watch", "menu-item#appletv"
+        ],
+        "props": {
+            "blockClass": ["global__footer_menu--products"]
+        }
+      }
+
+}

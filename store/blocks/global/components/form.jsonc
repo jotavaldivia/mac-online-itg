@@ -1,0 +1,30 @@
+{
+  "newsletter-form#global__footer__form": {
+    "children": [
+      "rich-text#global__footer__form--title",
+      "newsletter-input-name",
+      "newsletter-input-email",
+      "newsletter-submit"
+    ],
+    "props": {
+      "blockClass":"global__footer__form"
+    }
+  },
+"newsletter-submit":{
+  "props": {
+    "submitButtonLabel": "Subscribeme ahora"
+  }
+},
+"newsletter-input-name":{
+  "props": {
+   "inputLabel": "Nombre",
+   "blockClass":"newsletter-input-name"
+  }
+},
+"newsletter-input-email":{
+  "props": {
+   "inputLabel": "Email",
+   "blockClass":"newsletter-input-email"
+  }
+}
+}

@@ -5,6 +5,7 @@
       "responsive-layout.desktop",
       "responsive-layout.tablet",
       "responsive-layout.phone"
+      // "search-result-layout.customQuery#gloabl_search"
     ]
   },
   "responsive-layout.desktop": {
