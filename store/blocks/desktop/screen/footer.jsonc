@@ -64,7 +64,7 @@
   "flex-layout.col#desktop__footer__row2_col3": {
     "children": [
       "rich-text#global__footer__row2__col3--text1",
-      "image#desktop__footer__row2__col3--img1"
+      "image#global__footer__row2__col3--img1"
     ],
     "props": {
       "blockClass": "desktop__footer__row2_col3"
@@ -72,7 +72,7 @@
   },
   "flex-layout.col#desktop__footer__row2_col4": {
     "children": [
-      "image#desktop__footer__row2__col4--img1", 
+      "image#global__footer__row2__col4--img1", 
        "rich-text#global__footer__row2__col4--text1"
       ],
       "props": {
@@ -81,8 +81,11 @@
   },
   "flex-layout.col#desktop__footer__row2_col5": {
     "children": [
-      //  "form#global__footer__form"
-    ]
+      "newsletter-form#global__footer__form"
+    ] ,
+    "props": {
+      "blockClass": "desktop__footer__row2_col5"
+    }
   },
   "flex-layout.row#desktop__footer__row3": {
     "children": [
@@ -95,7 +98,7 @@
     }
   },
   "flex-layout.col#desktop__footer__row3__col1": {
-    "children": ["image#desktop__footer__row3__col1--img1"],
+    "children": ["image#global__footer__row3__col1--img1"],
     "props": {
       "horizontalAlign": "center",
       "verticalAlign": "middle"

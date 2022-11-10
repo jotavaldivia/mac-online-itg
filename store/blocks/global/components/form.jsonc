@@ -1,55 +1,30 @@
 {
-    "form#global__footer__form": {
-        "props": {
-          "entity": "formulario clientes",
-          "schema": "person"
-        },
-        "children": [
-        //   "rich-text#formTitle",
-          "form-input.text#firstName",
-          "form-input.text#lastName",
-          "form-field-group#address",
-          "form-input.checkbox#agreement",
-          "form-submit"
-        ],
-        "blocks": ["form-success"]
-      },
-      "form-success": {
-        "children": [
-          "rich-text#successSubmit"
-        ]
-      },
-      "rich-text#successSubmit": {
-        "props": {
-          "text": "Succesfully submitted the data!",
-          "textAlignment": "CENTER",
-          "textPosition": "CENTER"
-        }
-      },
-      "form-input.text#firstName": {
-        "props": {
-          "pointer": "#/properties/firstName"
-        }
-      },
-      "form-input.text#lastName": {
-        "props": {
-          "pointer": "#/properties/lastName"
-        }
-      },
-      "form-input.checkbox#agreement": {
-        "props": {
-          "pointer": "#/properties/agreement",
-          "label": "Do you agree that this is the best form component in the whole wide world?"
-        }
-      },
-      "form-field-group#address": {
-        "props": {
-          "pointer": "#/properties/address"
-        }
-      },
-      "form-submit": {
-        "props": {
-          "label": "Submit"
-        }
-      }
+  "newsletter-form#global__footer__form": {
+    "children": [
+      "rich-text#global__footer__form--title",
+      "newsletter-input-name",
+      "newsletter-input-email",
+      "newsletter-submit"
+    ],
+    "props": {
+      "blockClass":"global__footer__form"
+    }
+  },
+"newsletter-submit":{
+  "props": {
+    "submitButtonLabel": "Subscribeme ahora"
+  }
+},
+"newsletter-input-name":{
+  "props": {
+   "inputLabel": "Nombre",
+   "blockClass":"newsletter-input-name"
+  }
+},
+"newsletter-input-email":{
+  "props": {
+   "inputLabel": "Email",
+   "blockClass":"newsletter-input-email"
+  }
+}
 }

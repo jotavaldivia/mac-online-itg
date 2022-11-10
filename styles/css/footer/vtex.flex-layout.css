@@ -26,3 +26,22 @@
 .flexColChild--desktop__footer__row2_col4 {
   height: 40% !important;
 }
+
+/* estilos para mobile footer */
+  .flexRow--mobile__footer__row1 {
+    background-image: -webkit-linear-gradient(-90deg, #007cb7 50%, #000 50%);
+    height: 55px;
+  }
+
+  .flexCol--mobile__footer__row2_col2,.flexCol--mobile__footer__row2_col3,.flexCol--mobile__footer__row2_col4,.flexRowContent--mobile__footer__row3{
+    margin-top: 2rem;
+  }
+
+  .flexRowContent--mobile__footer__row3 {
+    background-color: rgba(0, 0, 0);
+    height: 90px;
+  }
+
+  /* .flexCol--desktop__footer__row2_col5{
+    width: 700px !important ;
+  } */

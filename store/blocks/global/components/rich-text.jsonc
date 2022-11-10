@@ -190,5 +190,14 @@
       "font": "SourceSansPro-Ligth",
       "blockClass": "global__footer__row2__col4--text1"
     }
+  },
+  "rich-text#global__footer__form--title":{
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "SUBSCRÍBETE A NUESTRO NEWSLETTER",
+      "font": "SourceSansPro-Ligth",
+      "blockClass": "global__footer__form--title"
+    }
   }
 }

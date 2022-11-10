@@ -1,0 +1,10 @@
+.minicartWrapperContainer :global(.vtex-button):hover {
+    background-color: var(--primary-color);
+  }
+  
+  .minicartIconContainer  :global(.vtex-button) {
+  background-color: var(--primary-color);
+  }
+  .minicartWrapperContainer{
+    background-color: var(--primary-color);
+  }

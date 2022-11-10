@@ -35,3 +35,18 @@
     font-size: 0.7rem;
     margin: 0px;
 }
+
+.wrapper--global__footer__row1__col1--text {
+  margin-left: -25%;
+}
+
+.paragraph--global__footer__form--title{
+  color: var(--secundary-color);
+ font-size: 0.8rem;
+}
+/* estilos para mobile footer */
+@media (max-width:720px){
+  .wrapper--global__footer__row1__col1--text {
+    margin-left: 0px;
+  }
+}
