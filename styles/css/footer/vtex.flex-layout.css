@@ -56,11 +56,14 @@
 .flexColChild--desktop__footer__row2-1_col1 {
   margin: 25px;
 }
-/* .flexRow--desktop__footer__row1-2{
-  max-width: 80%;
-  justify-content: center;
-} */
 
-/* .flexRowContent--desktop__footer__row1-2{
-  justify-content: center;
-} */
+/* estilos para tablet */
+
+@media (min-width: 640px) and (max-width: 1025px) {
+  .flexRowContent--mobile__footer__row2 {
+    flex-direction: column;
+  }
+  .flexRowContent--mobile__footer__row2 :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+   width: 100% !important;
+  }
+}
