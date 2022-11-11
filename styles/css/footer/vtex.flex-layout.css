@@ -57,13 +57,18 @@
   margin: 25px;
 }
 
+.flexRowContent--desktop__footer__row2 :global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(5n) {
+width: 35% !important;
+}
+
 /* estilos para tablet */
 
 @media (min-width: 640px) and (max-width: 1025px) {
   .flexRowContent--mobile__footer__row2 {
     flex-direction: column;
   }
-  .flexRowContent--mobile__footer__row2 :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
-   width: 100% !important;
+  .flexRowContent--mobile__footer__row2
+    :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    width: 100% !important;
   }
 }
