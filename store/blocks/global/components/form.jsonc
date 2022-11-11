@@ -18,13 +18,15 @@
 "newsletter-input-name":{
   "props": {
    "inputLabel": "Nombre",
-   "blockClass":"newsletter-input-name"
+   "blockClass":"newsletter-input-name",
+   "placeholderText": "Nombre"
   }
 },
 "newsletter-input-email":{
   "props": {
    "inputLabel": "Email",
-   "blockClass":"newsletter-input-email"
+   "blockClass":"newsletter-input-email",
+   "placeholderText": "Email"
   }
 }
 }
