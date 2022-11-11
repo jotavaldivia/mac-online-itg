@@ -23,11 +23,12 @@
   
     "flex-layout.row#mobile__footer__row2": {
       "children": [
+        "newsletter-form#global__footer__form",
         "flex-layout.col#mobile__footer__row2_col1",
         "flex-layout.col#mobile__footer__row2_col2",
         "flex-layout.col#mobile__footer__row2_col3",
-        "flex-layout.col#mobile__footer__row2_col4",
-        "flex-layout.col#mobile__footer__row2_col5"
+        "flex-layout.col#mobile__footer__row2_col4"
+        // "flex-layout.col#mobile__footer__row2_col5"
       ],
       "props": {
         "blockClass": "mobile__footer__row2"
@@ -78,7 +79,7 @@
     },
     "flex-layout.col#mobile__footer__row2_col5": {
       "children": [
-        // "newsletter-form#footer"
+     
       ]
     },
     "flex-layout.row#mobile__footer__row3": {
