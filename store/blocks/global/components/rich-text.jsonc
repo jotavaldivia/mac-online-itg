@@ -199,5 +199,11 @@
       "font": "SourceSansPro-Ligth",
       "blockClass": "global__footer__form--title"
     }
+  },
+  // search page
+  "rich-text#desktop__search__row1_col1--title":{
+    "props":{
+      "text":"# Accesorios"
+    }
   }
 }
