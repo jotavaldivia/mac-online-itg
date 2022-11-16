@@ -1,0 +1,26 @@
+.container--global__breadcrumb{
+
+}
+
+.link--global__breadcrumb{
+    color:#005A9C ;
+}
+
+.homeLink--global__breadcrumb{
+ visibility: hidden;
+    }
+.homeLink--global__breadcrumb::after{
+content: "Inicio";
+visibility: visible;
+float: right;
+margin-top: 0.25rem;
+}
+
+/* .caretIcon--global__breadcrumb{
+    visibility: hidden;
+}
+
+.caretIcon--global__breadcrumb::after{
+    content: "hola";
+    visibility: visible;
+} */

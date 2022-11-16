@@ -1,5 +1,6 @@
 {
     "vtex.menu@2.x:menu#global__websites": {
+      "title": "menu prinicpal departamento",
         "children": [
           "menu-item#mac","menu-item#ipad","menu-item#iphone", "menu-item#watch","menu-item#airpods",
           "menu-item#appletv", "menu-item#musica","menu-item#accesorios", "menu-item#soporte","menu-item#tradein",

@@ -1,0 +1,7 @@
+{
+    "breadcrumb.search#global__breadcrumb":{
+        "props": {
+            "blockClass":"global__breadcrumb"
+        }
+    }
+}

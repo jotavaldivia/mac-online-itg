@@ -1,5 +1,6 @@
 {
     "social-networks#global__footer": {
+      "title":"redes sociales footer",
         "props": {
           "socialNetworks": [
             { "url": "https://facebook.com/foo", "name": "Facebook" },

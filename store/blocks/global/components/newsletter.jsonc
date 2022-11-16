@@ -1,5 +1,6 @@
 {
   "newsletter-form#global__footer__form": {
+    "title": "formulario footer",
     "children": [
       "rich-text#global__footer__form--title",
       "newsletter-input-name",
@@ -11,11 +12,13 @@
     }
   },
 "newsletter-submit":{
+  "title": "botón newsletter",
   "props": {
     "submitButtonLabel": "Subscribeme ahora"
   }
 },
 "newsletter-input-name":{
+  "title": "nombre newsletter",
   "props": {
    "inputLabel": "Nombre",
    "blockClass":"newsletter-input-name",
@@ -23,6 +26,7 @@
   }
 },
 "newsletter-input-email":{
+  "title": "email newsletter",
   "props": {
    "inputLabel": "Email",
    "blockClass":"newsletter-input-email",

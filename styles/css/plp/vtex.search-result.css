@@ -1,0 +1,25 @@
+.container--layout{
+    max-width: 1300px;
+}
+
+.filterMessage--desktop__filter_plp{
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    color: gray;
+    font-weight: 700;
+}
+
+.filterTitleSpan--desktop__filter_plp{
+    font-size: 0.8rem;
+    color: gray;
+    font-weight: 700;
+}
+
+:global(.vtex-slider__left-value),:global(.vtex-slider__right-value){
+    display: block;
+    margin-top: -2px;
+    color: #007cb7;
+    font-style: italic;
+    letter-spacing: -0.005em;
+    font-weight: 100;
+}
