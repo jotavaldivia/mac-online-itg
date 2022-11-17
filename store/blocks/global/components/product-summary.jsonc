@@ -1,5 +1,5 @@
 {
-    "product-summary.shelf#desktop__search": {
+    "product-summary.shelf#global__search-plp": {
         "children": [
           "stack-layout#prodsum",
           "product-summary-name",
@@ -29,7 +29,8 @@
         "props": {
           "showBadge": false,
           "aspectRatio": "1:1",
-          "maxHeight": 300
+          "maxHeight": 300,
+          "blockClass": "global__search-plp--image"
         }
       },
     
@@ -51,14 +52,19 @@
     //       "product-price-savings#summary"
     //     ]
     //   },
+    "product-summary-name":{
+        "props": {
+            "blockClass": "global__search-plp--product-name"
+          }
+    },
       "product-installments#summary": {
         "props": {
-          "blockClass": "summary"
+          "blockClass": "global__search-plp--installments"
         }
       },
       "product-selling-price#summary": {
         "props": {
-          "blockClass": "summary"
+          "blockClass": "global__search-plp--selling-price"
         }
       },
       "product-price-savings#summary": {
@@ -66,7 +72,7 @@
           "markers": [
             "discount"
           ],
-          "blockClass": "summary"
+          "blockClass": "global__search-plp--product-price"
         }
       }
 }

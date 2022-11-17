@@ -2,17 +2,17 @@
     max-width: 1300px;
 }
 
-.filterMessage--desktop__filter_plp{
+.filterMessage--global__filter_plp{
     font-size: 0.8rem;
     text-transform: uppercase;
     color: gray;
-    font-weight: 700;
+    font-weight: 900;
 }
 
-.filterTitleSpan--desktop__filter_plp{
+.filterTitleSpan--global__filter_plp{
     font-size: 0.8rem;
     color: gray;
-    font-weight: 700;
+    font-weight: 900;
 }
 
 :global(.vtex-slider__left-value),:global(.vtex-slider__right-value){
@@ -22,4 +22,20 @@
     font-style: italic;
     letter-spacing: -0.005em;
     font-weight: 100;
+}
+:global(.vtex-slider__base-internal), :global(.vtex-slider__selector){
+    background-color: #007cb7;
+}
+
+.filtersWrapperMobile--global__filter_plp{
+    background-color: #007cb7;
+    height: 40px;
+}
+
+.filterPopupTitle--global__filter_plp{
+    color: white;
+}
+
+.filterPopupArrowIcon--global__filter_plp{
+    display: none;
 }

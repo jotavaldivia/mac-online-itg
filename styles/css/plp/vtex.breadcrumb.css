@@ -2,18 +2,19 @@
 
 }
 
-.link--global__breadcrumb{
+.link--global__breadcrumb,.link--1{
     color:#005A9C ;
 }
 
-.homeLink--global__breadcrumb{
+.homeLink--global__breadcrumb,.homeLink{
  visibility: hidden;
     }
-.homeLink--global__breadcrumb::after{
+.homeLink--global__breadcrumb::after,.homeLink::after{
 content: "Inicio";
 visibility: visible;
 float: right;
 margin-top: 0.25rem;
+color:#005A9C ;
 }
 
 /* .caretIcon--global__breadcrumb{

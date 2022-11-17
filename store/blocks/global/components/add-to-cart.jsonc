@@ -1,7 +1,8 @@
 {
     "add-to-cart-button#global__add-to-cart":{
         "props": {
-            "blockClass":"global__add-to-cart"
+            "blockClass":"global__add-to-cart",
+            "text": "Comprar"
         }
     }
 }

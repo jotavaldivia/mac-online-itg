@@ -211,10 +211,10 @@
     }
   },
   // search page
-  "rich-text#desktop__search__row1_col1--title":{
+  "rich-text#global__search__row1_col1--title":{
     "title": "textom accesorios",
     "props":{
-      "text":"# Accesorios"
+      "text":"## Accesorios"
     }
   }
 }
