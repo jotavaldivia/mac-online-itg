@@ -1,15 +1,15 @@
 /* estilos para search bar */
-:global(.vtex-store-components-3-x-searchBarContainer)
-  :global(.vtex-input__suffix) {
-  cursor: pointer;
+:global(.vtex-store-components-3-x-searchBarContainer) :global(.vtex-input__suffix) {
+  cursor          : pointer;
   background-color: #007cb7;
-  border-color: #007cb7;
-}
-:global(.vtex-input-prefix__group){
-border-style: none;
-}
-.searchBarContainer{
-  max-width: 350px;
-  margin-left: 1rem;
+  border-color    : #007cb7;
 }
 
+:global(.vtex-input-prefix__group) {
+  border-style: none;
+}
+
+.searchBarContainer {
+  max-width  : 350px;
+  margin-left: 1rem;
+}
