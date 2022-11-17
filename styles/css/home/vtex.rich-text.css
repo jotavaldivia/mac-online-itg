@@ -1,42 +1,46 @@
 /*  estilos para cinta de tiendas */
-.wrapper--global__headband--store{
-    width: 100%;
+.wrapper--global__headband--store {
+    width     : 100%;
     background: linear-gradient(180deg, #006ac2 0%, #00b0df 100%);
 }
-.paragraph--global__headband--store{
-   line-height: 0px;
-}
-.link--global__headband--store{
+
+.paragraph--global__headband--store {
     line-height: 0px;
-    color: white;
-    font-size: 0.8rem;
 }
+
+.link--global__headband--store {
+    line-height: 0px;
+    color      : white;
+    font-size  : 0.8rem;
+}
+
 /* estilos para el titulo h1 */
-.headingLevel1--global__section--title{
-    color: var(--fourth-color);
-    font-size: 2.3rem;
+.headingLevel1--global__section--title {
+    color      : var(--fourth-color);
+    font-size  : 2.3rem;
     font-weight: 100;
-    margin-top: 5rem;
+    margin-top : 5rem;
 }
 
 @media (max-width: 400px) {
-    .headingLevel1--global__section--title{
-        color: var(--fourth-color);
+    .headingLevel1--global__section--title {
+        color    : var(--fourth-color);
         font-size: 1.3rem;
     }
-  }
+}
 
 /* estilos para boton ultimas entradas */
-.wrapper--global__container__lastentries__row3--button{
-margin-bottom: 2rem;
+.wrapper--global__container__lastentries__row3--button {
+    margin-bottom: 2rem;
 }
 
-.paragraph--global__container__lastentries__row3--button{
-    border: 1px solid rgba(51,51,51,0.1);
+.paragraph--global__container__lastentries__row3--button {
+    border : 1px solid rgba(51, 51, 51, 0.1);
     padding: 5px 15px;
 }
-.link--global__container__lastentries__row3--button{
-text-decoration: none;
-color: var(--fourth-color);
-font-size: 0.8rem;
+
+.link--global__container__lastentries__row3--button {
+    text-decoration: none;
+    color          : var(--fourth-color);
+    font-size      : 0.8rem;
 }

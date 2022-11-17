@@ -1,41 +1,44 @@
-.container--layout{
+.container--layout {
     max-width: 1300px;
 }
 
-.filterMessage--global__filter_plp{
-    font-size: 0.8rem;
+.filterMessage--global__filter_plp {
+    font-size     : 0.8rem;
     text-transform: uppercase;
-    color: gray;
+    color         : gray;
+    font-weight   : 900;
+}
+
+.filterTitleSpan--global__filter_plp {
+    font-size  : 0.8rem;
+    color      : gray;
     font-weight: 900;
 }
 
-.filterTitleSpan--global__filter_plp{
-    font-size: 0.8rem;
-    color: gray;
-    font-weight: 900;
-}
-
-:global(.vtex-slider__left-value),:global(.vtex-slider__right-value){
-    display: block;
-    margin-top: -2px;
-    color: #007cb7;
-    font-style: italic;
+:global(.vtex-slider__left-value),
+:global(.vtex-slider__right-value) {
+    display       : block;
+    margin-top    : -2px;
+    color         : #007cb7;
+    font-style    : italic;
     letter-spacing: -0.005em;
-    font-weight: 100;
+    font-weight   : 100;
 }
-:global(.vtex-slider__base-internal), :global(.vtex-slider__selector){
+
+:global(.vtex-slider__base-internal),
+:global(.vtex-slider__selector) {
     background-color: #007cb7;
 }
 
-.filtersWrapperMobile--global__filter_plp{
+.filtersWrapperMobile--global__filter_plp {
     background-color: #007cb7;
-    height: 40px;
+    height          : 40px;
 }
 
-.filterPopupTitle--global__filter_plp{
+.filterPopupTitle--global__filter_plp {
     color: white;
 }
 
-.filterPopupArrowIcon--global__filter_plp{
+.filterPopupArrowIcon--global__filter_plp {
     display: none;
 }

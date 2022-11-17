@@ -1,5 +1,5 @@
-.productNameContainer--global__search-plp--product-name{
-    color: gray;
+.productNameContainer--global__search-plp--product-name {
+    color      : gray;
     font-weight: 900;
 }
 
@@ -7,9 +7,9 @@
 justify-content: center;
 } */
 
-.clearLink :global(.vtex-button){
-width: 150px;
-margin: 0 auto;
-margin-top: 1rem;
+.clearLink :global(.vtex-button) {
+    width     : 150px;
+    margin    : 0 auto;
+    margin-top: 1rem;
 
 }

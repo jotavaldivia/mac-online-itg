@@ -1,28 +1,32 @@
 .flexRow--desktop__footer__row1 {
   background-image: -webkit-linear-gradient(-20deg, #007cb7 50%, #000 50%);
-  height: 55px;
+  height          : 55px;
 }
+
 .flexRow--desktop__footer__row2 {
   background-color: var(--primary-color);
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 50px;
+  max-width       : 1100px;
+  margin          : 0 auto;
+  padding         : 50px;
 }
-.flexRowContent--desktop__footer__row2
-  :global(.vtex-menu-2-x-styledLinkContainer) {
-  margin-left: 0px;
-  margin-right: 0px;
-  padding-top: 0.3rem;
+
+.flexRowContent--desktop__footer__row2 :global(.vtex-menu-2-x-styledLinkContainer) {
+  margin-left   : 0px;
+  margin-right  : 0px;
+  padding-top   : 0.3rem;
   padding-bottom: 0.3rem;
 }
+
 .flexRowContent--desktop__footer__row3 {
   background-color: rgba(0, 0, 0);
-  height: 90px;
+  height          : 90px;
 }
+
 .flexColChild--desktop__footer__row2_col2,
 .flexColChild--desktop__footer__row2_col3 {
   height: 30% !important;
 }
+
 .flexColChild--desktop__footer__row2_col4 {
   height: 40% !important;
 }
@@ -30,7 +34,7 @@
 /* estilos para mobile footer */
 .flexRow--mobile__footer__row1 {
   background-image: -webkit-linear-gradient(-90deg, #007cb7 50%, #000 50%);
-  height: 55px;
+  height          : 55px;
 }
 
 .flexCol--mobile__footer__row2_col2,
@@ -42,23 +46,24 @@
 
 .flexRowContent--mobile__footer__row3 {
   background-color: rgba(0, 0, 0);
-  height: 90px;
+  height          : 90px;
 }
 
 .flexCol--desktop__footer__row2-1_col1 {
-  margin-top: 2rem;
-  flex-direction: row;
+  margin-top     : 2rem;
+  flex-direction : row;
   justify-content: center;
-  /* align-items: center; */
-  border-bottom: 1px solid white;
-  max-width: 80%;
+  /* align-items : center; */
+  border-bottom  : 1px solid white;
+  max-width      : 80%;
 }
+
 .flexColChild--desktop__footer__row2-1_col1 {
   margin: 25px;
 }
 
 .flexRowContent--desktop__footer__row2 :global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(5n) {
-width: 35% !important;
+  width: 35% !important;
 }
 
 /* estilos para tablet */
@@ -67,8 +72,8 @@ width: 35% !important;
   .flexRowContent--mobile__footer__row2 {
     flex-direction: column;
   }
-  .flexRowContent--mobile__footer__row2
-    :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+
+  .flexRowContent--mobile__footer__row2 :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
     width: 100% !important;
   }
 }
