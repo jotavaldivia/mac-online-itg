@@ -1,5 +1,6 @@
 {
     "vtex.menu@2.x:menu#global__footer_menu--us": {
+      "title": "menu del footer nosotros",
         "children": [
             "menu-item#tiendas",   "menu-item#frequentQuestions", "menu-item#support",    "menu-item#queries","menu-item#TermsAndConditions",
             "menu-item#WorkWithUs", "menu-item#IntegrityChannel"
@@ -107,6 +108,7 @@
       }
     },
     "vtex.menu@2.x:menu#global__footer_menu--products": {
+      "title": "menu del footer productos",
         "children": [
             "menu-item#mac","menu-item#ipad", "menu-item#iphone","menu-item#watch", "menu-item#appletv"
         ],

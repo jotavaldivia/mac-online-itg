@@ -1,0 +1,78 @@
+{
+    "product-summary.shelf#global__search-plp": {
+        "children": [
+          "stack-layout#prodsum",
+          "product-summary-name",
+          "flex-layout.col#productRating",
+          "product-selling-price",
+          "product-summary-space",
+        //   "product-list-price#summary",
+        //   "flex-layout.row#selling-price-savings",
+          "product-installments#summary",
+          "add-to-cart-button#global__add-to-cart"
+        ]
+      },
+      "flex-layout.col#productRating": {
+        "props": {
+          "blockClass": "productRating"
+        },
+        "children": ["product-rating-inline"]
+      },
+    
+      "stack-layout#prodsum": {
+        "children": [
+          "product-summary-image#shelf"
+        ]
+      },
+    
+      "product-summary-image#shelf": {
+        "props": {
+          "showBadge": false,
+          "aspectRatio": "1:1",
+          "maxHeight": 300,
+          "blockClass": "global__search-plp--image"
+        }
+      },
+    
+    //   "product-list-price#summary": {
+    //     "props": {
+    //       "blockClass": "summary",
+    //       "message": "Selling price: {sellingPriceValue}"
+    //     }
+    //   },
+    //   "flex-layout.row#selling-price-savings": {
+    //     "props": {
+    //       "colGap": 2,
+    //       "preserveLayoutOnMobile": true,
+    //       "preventHorizontalStretch": true,
+    //       "marginBottom": 4
+    //     },
+    //     "children": [
+    //       "product-selling-price#summary",
+    //       "product-price-savings#summary"
+    //     ]
+    //   },
+    "product-summary-name":{
+        "props": {
+            "blockClass": "global__search-plp--product-name"
+          }
+    },
+      "product-installments#summary": {
+        "props": {
+          "blockClass": "global__search-plp--installments"
+        }
+      },
+      "product-selling-price#summary": {
+        "props": {
+          "blockClass": "global__search-plp--selling-price"
+        }
+      },
+      "product-price-savings#summary": {
+        "props": {
+          "markers": [
+            "discount"
+          ],
+          "blockClass": "global__search-plp--product-price"
+        }
+      }
+}

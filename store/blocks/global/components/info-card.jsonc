@@ -1,5 +1,6 @@
 {
   "info-card#global__info-card1": {
+    "title":"card destacado de la semana",
     "props": {
       "id": "info-card-example",
       "isFullModeStyle": false,
@@ -16,6 +17,7 @@
     }
   },
   "info-card#global__info-card2": {
+    "title":"card new arrival",
     "props": {
       "id": "info-card-example",
       "isFullModeStyle": false,
@@ -32,6 +34,7 @@
     }
   },
   "info-card#global__info-card3": {
+    "title":"card destacado del mes",
     "props": {
       "id": "info-card-example",
       "isFullModeStyle": false,
@@ -49,6 +52,7 @@
   },
   // info cards para tab layout ultimas entradas
   "info-card#global__container__lastentries__all-1": {
+    "title":"card destacado de la semana",
     "props": {
       "isFullModeStyle": false,
       "textPosition": "left",
@@ -64,6 +68,7 @@
     }
   },
   "info-card#global__container__lastentries__all-2": {
+    "title":"card destacado la semana",
     "props": {
       "isFullModeStyle": false,
       "textPosition": "left",
@@ -79,6 +84,7 @@
     }
   },
   "info-card#global__container__lastentries__all-3": {
+    "title":"card destacado del mes",
     "props": {
       "isFullModeStyle": false,
       "textPosition": "left",
@@ -94,6 +100,7 @@
     }
   },
   "info-card#global__container__lastentries__productivity-1": {
+    "title":"card destacado de la semana",
     "props": {
       "isFullModeStyle": false,
       "textPosition": "left",
@@ -109,6 +116,7 @@
     }
   },
   "info-card#global__container__lastentries__productivity-2": {
+    "title":"card new arrival",
     "props": {
       "isFullModeStyle": false,
       "textPosition": "left",
@@ -124,6 +132,7 @@
     }
   },
   "info-card#global__container__lastentries__productivity-3": {
+    "title":"card destacado del mes",
     "props": {
       "isFullModeStyle": false,
       "textPosition": "left",
@@ -139,6 +148,7 @@
     }
   },
   "info-card#global__container__lastentries__technology-1": {
+    "title":"card Recupera tu contraseña de tu Apple ID",
     "props": {
       "isFullModeStyle": false,
       "textPosition": "left",
@@ -154,6 +164,7 @@
     }
   },
   "info-card#global__container__lastentries__lifestyle-1": {
+    "title":"card Recupera tu contraseña de tu Apple ID",
     "props": {
       "isFullModeStyle": false,
       "textPosition": "left",
@@ -169,6 +180,7 @@
     }
   },
   "info-card#global__container__lastentries__entertainment-1": {
+    "title":"card Recupera tu contraseña de tu Apple ID",
     "props": {
       "isFullModeStyle": false,
       "textPosition": "left",
@@ -184,6 +196,7 @@
     }
   },
   "info-card#global__container__lastentries__financialEducation-1": {
+    "title":"card Recupera tu contraseña de tu Apple ID",
     "props": {
       "isFullModeStyle": false,
       "textPosition": "left",
@@ -199,6 +212,7 @@
     }
   },
   "info-card#global__container__lastentries__apps-1": {
+    "title":"card Recupera tu contraseña de tu Apple ID",
     "props": {
       "isFullModeStyle": false,
       "textPosition": "left",
@@ -214,6 +228,7 @@
     }
   },
   "info-card#global__container__lastentries__fitnessHealth-1": {
+    "title":"card Recupera tu contraseña de tu Apple ID",
     "props": {
       "isFullModeStyle": false,
       "textPosition": "left",

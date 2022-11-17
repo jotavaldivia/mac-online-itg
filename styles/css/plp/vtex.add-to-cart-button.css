@@ -1,0 +1,8 @@
+.buttonText--global__add-to-cart{
+    font-size: 0.8rem;
+    color: #005A9C;
+}
+
+.buttonText--global__add-to-cart:hover{
+    color: #ffffff;
+}

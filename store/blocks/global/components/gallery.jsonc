@@ -1,0 +1,37 @@
+{
+  "gallery": {
+    "props": {
+      "layouts": [
+        {
+          "name": "grid",
+          "component": "GridSummary",
+          "itemsPerRow": {
+            "(min-width:1300px)": 4,
+            "desktop": 3,
+            "tablet": 3,
+            "phone": 2
+          }
+        },
+        {
+          "name": "list",
+          "component": "ListSummary",
+          "itemsPerRow": 1
+        }
+      ],
+      "GridSummary": "product-summary.shelf#global__search-plp"
+    }
+  },
+  "filter-navigator.v3#global__filter_plp": {
+    "props": {
+      "blockClass": "global__filter_plp",
+      "truncateFilters": true,
+      "showClearByFilter": true,
+      // "fullWidthOnMobile": true,
+      "navigationTypeOnMobile": "collapsible",
+      "appliedFiltersOverview": "show",
+      "totalProductsOnMobile": "show",
+      "updateOnFilterSelectionOnMobile": true
+      // "priceRangeLayout": "inputAndSlider"
+    }
+  }
+}
