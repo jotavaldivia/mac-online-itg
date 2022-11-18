@@ -1,34 +1,39 @@
 /* estilos  para header desktop */
-.headerRowBackground--desktop__container-header-top{
-  background-color:   var(--primary-color);
+.headerRowBackground--desktop__container-header-top {
+  background-color: var(--primary-color);
 }
-.headerRowContainer--desktop__container-header-top{
+
+.headerRowContainer--desktop__container-header-top {
   justify-content: center;
 }
-.headerRowContainer--desktop__container-header-middle{
+
+.headerRowContainer--desktop__container-header-middle {
   margin-left: 22%;
-  width: auto;
+  width      : auto;
 }
-.headerRowBackground--desktop__container-header-middle{
-  background-color:   var(--primary-color);
+
+.headerRowBackground--desktop__container-header-middle {
+  background-color: var(--primary-color);
 }
 
 /* estilos  para header mobile y tablet */
 
-.headerRowBackground--mobile__container-header-top{
-  background-color:   var(--primary-color);
+.headerRowBackground--mobile__container-header-top {
+  background-color: var(--primary-color);
 }
-.headerRowContainer--mobile__container-header-top{
+
+.headerRowContainer--mobile__container-header-top {
   justify-content: space-between;
 }
 
-.headerStickyRow--mobile__container-header-top-2  :global(.vtex-minicart-2-x-minicartContainer),
-.headerStickyRow--mobile__container-header-top-2  :global(.vtex-login-2-x-container),
+.headerStickyRow--mobile__container-header-top-2 :global(.vtex-minicart-2-x-minicartContainer),
+.headerStickyRow--mobile__container-header-top-2 :global(.vtex-login-2-x-container),
 .headerRowContainer--mobile__container-header-top-2,
 .headerRowContainer--mobile__container-header-top-1,
-.headerRowContainer--mobile__container-header-middle{
-  background-color:   var(--primary-color);
+.headerRowContainer--mobile__container-header-middle {
+  background-color: var(--primary-color);
 }
-.headerRowContainer--mobile__container-header-top-2{
+
+.headerRowContainer--mobile__container-header-top-2 {
   margin-right: 1rem;
 }

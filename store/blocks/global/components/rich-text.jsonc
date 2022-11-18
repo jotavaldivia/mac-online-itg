@@ -1,5 +1,6 @@
 {
   "rich-text#global__headband--store": {
+    "title": "texto Encuentra tu tienda más cercana",
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
@@ -8,6 +9,7 @@
     }
   },
   "rich-text#global__section1--title": {
+    "title": "texto productos destacados",
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
@@ -17,6 +19,7 @@
     }
   },
   "rich-text#global__container__lastentries__row1__col1--title": {
+    "title": "texto últimas entradas",
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
@@ -26,6 +29,7 @@
     }
   },
   "rich-text#global__container__lastentries__row3--button": {
+    "title": "botón ver todo",
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
@@ -36,6 +40,7 @@
   },
   // texto para sucursales
   "rich-text#global__footer__row1__col1--text1": {
+    "title": "texto Encuentra tu tienda más cercana",
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
@@ -46,6 +51,7 @@
   },
   // texto menu para el footer col 1
   "rich-text#global__footer__row2__col1--text1": {
+    "title": "texto nosotros",
     "props": {
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
@@ -119,6 +125,7 @@
   // },
   // // texto menu para el footer col 2
   "rich-text#global__footer__row2__col2--text1": {
+    "title": "texto productos",
     "props": {
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
@@ -174,6 +181,7 @@
   // },
   // texto menu para el footer col 3
   "rich-text#global__footer__row2__col3--text1": {
+    "title": "texto medios de pago",
     "props": {
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
@@ -183,6 +191,7 @@
     }
   },
   "rich-text#global__footer__row2__col4--text1": {
+    "title": "texto de adobe",
     "props": {
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
@@ -192,6 +201,7 @@
     }
   },
   "rich-text#global__footer__form--title":{
+    "title": "texto newsletter",
     "props": {
       "textAlignment": "LEFT",
       "textPosition": "LEFT",

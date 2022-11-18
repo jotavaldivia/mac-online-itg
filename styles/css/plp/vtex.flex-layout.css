@@ -1,0 +1,40 @@
+.flexColChild--desktop__search__row2__col2 :global(.vtex-button) {
+    background-color: white;
+    border          : 1px solid #005A9C;
+    margin-top      : 1rem;
+}
+
+.flexColChild--desktop__search__row2__col2 :global(.vtex-button):hover {
+    background-color: #005A9C;
+    transition      : background-color 1s;
+}
+
+.flexColChild--desktop__search__row2__col2 :global(.vtex-button) :global(.vtex-add-to-cart-button-0-x-buttonText--global__add-to-cart):hover {
+    color: white;
+}
+
+
+/* estilos mobile */
+
+.flexColChild--mobile__search__row2__col2 :global(.vtex-button) {
+    background-color: white;
+    border          : 1px solid #005A9C;
+    margin-top      : 1rem;
+}
+
+.flexColChild--mobile__search__row2__col2 :global(.vtex-button):hover {
+    background-color: #005A9C;
+    transition      : background-color 1s;
+}
+
+.flexColChild--mobile__search__row2__col2 :global(.vtex-button) :global(.vtex-add-to-cart-button-0-x-buttonText--global__add-to-cart):hover {
+    color: white;
+}
+
+@media (max-width: 1024px) {
+    .flexCol--mobile__search__row2__col1 {
+        flex-direction : row;
+        justify-content: space-between;
+        align-items    : center;
+    }
+}

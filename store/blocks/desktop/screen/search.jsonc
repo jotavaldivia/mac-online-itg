@@ -1,0 +1,68 @@
+{
+  "search-result-layout.desktop": {
+    "children": [
+      "flex-layout.row#desktop__search__row1",
+      "flex-layout.row#desktop__search__row2"
+    ],
+    "props": {
+      "paginations": "show-more",
+      "preventRouteChange": false,
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      }
+    }
+  },
+  "flex-layout.row#desktop__search__row1": {
+    "children": [
+      "flex-layout.col#desktop__search__row1__col1",
+      "flex-layout.col#desktop__search__row1__col2"
+    ],
+    "props": {
+      "blockClass": "desktop__search__row1"
+    }
+  },
+  "flex-layout.col#desktop__search__row1__col1": {
+    "children": [
+      "search-title.v2"
+    ]
+  },
+  "flex-layout.col#desktop__search__row1__col2": {
+    "children": [
+      "breadcrumb.search#global__breadcrumb--plp"
+    ]
+  },
+  "flex-layout.row#desktop__search__row2": {
+    "children": [
+      "flex-layout.col#desktop__search__row2__col1",
+      "flex-layout.col#desktop__search__row2__col2"
+    ],
+    "props": {
+      "blockClass": "desktop__search__row2"
+    }
+  },
+  "flex-layout.col#desktop__search__row2__col1": {
+    "children": [
+      "filter-navigator.v3#global__filter_plp"
+    ],
+    "props": {
+      "blockClass": "desktop__search__row2__col1",
+      "width":"30%"
+    }
+  },
+  "flex-layout.col#desktop__search__row2__col2": {
+    "children": [
+      "search-content"
+    ],
+    "props": {
+      "blockClass": "desktop__search__row2__col2",
+      "width":"70%"
+    }
+  },
+  "search-content":{
+    "blocks": [
+      "gallery","not-found"
+    ]
+  }
+ 
+}

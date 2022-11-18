@@ -1,0 +1,15 @@
+.productNameContainer--global__search-plp--product-name {
+    color      : gray;
+    font-weight: 900;
+}
+
+/* :gloabl(.vtex-product-summary-2-x-element){
+justify-content: center;
+} */
+
+.clearLink :global(.vtex-button) {
+    width     : 150px;
+    margin    : 0 auto;
+    margin-top: 1rem;
+
+}

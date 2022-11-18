@@ -1,0 +1,260 @@
+// menu ihone
+{
+    "vtex.menu@2.x:menu#global__category--iphone": {
+        "children": [
+            "flex-layout.row#category-iphone__row1"
+        ],
+        "props": {
+            "blockClass": "global__category__menu"
+        }
+    },
+    "flex-layout.row#category-iphone__row1": {
+        "children": [
+            "flex-layout.col#category-iphone__row1__col1",
+            "flex-layout.col#category-iphone__row1__col2"
+        ],
+        "props": {
+            "blockClass": "category__menu__row1",
+            "fullWidth": true
+        }
+    },
+    "flex-layout.col#category-iphone__row1__col1": {
+        "children": [
+            "menu-item#iphone-14-pro-max",
+            "menu-item#iphone-14-pro",
+            "menu-item#iphone-14-plus",
+            "menu-item#iphone-14",
+            "menu-item#iphone-13-pro-max",
+            "menu-item#iphone-13-pro",
+            "menu-item#iphone-13",
+            "menu-item#iphone-13-mini",
+            "menu-item#iphone-12",
+            "menu-item#iphone-11",
+            "menu-item#iphone-se",
+            "menu-item#iphone-ver-todo"
+        ],
+        "props": {
+            "blockClass": "category__menu__row1_col"
+        }
+    },
+    "menu-item#iphone-14-pro-max": {
+        "props": {
+            "id": "submenu-item-iphone-14-pro-max",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "https://www.iphoneonline.com/t/iphone",
+                "noFollow": false,
+                "tagTitle": "iphone 14 pro max",
+                "text": "iphone 14 pro max"
+            }
+        }
+    },
+    "menu-item#iphone-14-pro": {
+        "props": {
+            "id": "submenu-item-iphone-14-pro",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "https://www.iphoneonline.com/t/iphone",
+                "noFollow": false,
+                "tagTitle": "iphone 14 pro",
+                "text": "iphone 14 pro"
+            }
+        }
+    },
+    "menu-item#iphone-14-plus": {
+        "props": {
+            "id": "submenu-item-iphone-14-plus",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "https://www.iphoneonline.com/t/iphone",
+                "noFollow": false,
+                "tagTitle": "iphone 14 plus",
+                "text": "iphone 14 plus"
+            }
+        }
+    },
+    "menu-item#iphone-14": {
+        "props": {
+            "id": "submenu-item-iphone-14",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "https://www.iphoneonline.com/t/iphone",
+                "noFollow": false,
+                "tagTitle": "iphone 14",
+                "text": "iphone 14"
+            }
+        }
+    },
+    "menu-item#iphone-13-pro-max": {
+        "props": {
+            "id": "submenu-item-iphone-13-pro-max",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "https://www.iphoneonline.com/t/iphone",
+                "noFollow": false,
+                "tagTitle": "iphone 13 pro max",
+                "text": "iphone 13 pro max"
+            }
+        }
+    },
+    "menu-item#iphone-13-pro": {
+        "props": {
+            "id": "submenu-item-iphone-13-pro",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "https://www.iphoneonline.com/t/iphone",
+                "noFollow": false,
+                "tagTitle": "iphone 13 pro",
+                "text": "iphone 13 pro"
+            }
+        }
+    },
+    "menu-item#iphone-13": {
+        "props": {
+            "id": "submenu-item-iphone-13",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "https://www.iphoneonline.com/t/iphone",
+                "noFollow": false,
+                "tagTitle": "iphone 13",
+                "text": "iphone 13"
+            }
+        }
+    },
+    "menu-item#iphone-13-mini": {
+        "props": {
+            "id": "submenu-item-iphone-13-mini",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "https://www.iphoneonline.com/t/iphone",
+                "noFollow": false,
+                "tagTitle": "iphone 13 mini",
+                "text": "iphone 13 mini"
+            }
+        }
+    },
+    "menu-item#iphone-12": {
+        "props": {
+            "id": "submenu-item-iphone-12",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "https://www.iphoneonline.com/t/iphone",
+                "noFollow": false,
+                "tagTitle": "iphone 12",
+                "text": "iphone 12"
+            }
+        }
+    },
+    "menu-item#iphone-11": {
+        "props": {
+            "id": "submenu-item-iphone-11",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "https://www.iphoneonline.com/t/iphone",
+                "noFollow": false,
+                "tagTitle": "iphone 11",
+                "text": "iphone 11"
+            }
+        }
+    },
+    "menu-item#iphone-se": {
+        "props": {
+            "id": "submenu-item-iphone-se",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "https://www.iphoneonline.com/t/iphone",
+                "noFollow": false,
+                "tagTitle": "iphone se (2022)",
+                "text": "iphone se (2022)"
+            }
+        }
+    },
+    "menu-item#iphone-ver-todo": {
+        "props": {
+            "id": "submenu-item-iphone-ver-todo",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "https://www.iphoneonline.com/t/iphone",
+                "noFollow": false,
+                "tagTitle": "ver todo",
+                "text": "ver todo"
+            }
+        }
+    },
+    "flex-layout.col#category-iphone__row1__col2": {
+        "children": [
+            "menu-item#iphone-accesorios",
+            "menu-item#iphone-accesorios-ver todo",
+            "menu-item#iphone-accesorios-comprador"
+        ],
+        "props": {
+            "blockClass": "category__menu__row1_col"
+        }
+    },
+    "menu-item#iphone-accesorios": {
+        "props": {
+            "id": "submenu-item-iphone-accesorios",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "https://www.iphoneonline.com/t/iphone",
+                "noFollow": false,
+                "tagTitle": "Accesorios",
+                "text": "Accesorios"
+            }
+        }
+    },
+    "menu-item#iphone-accesorios-ver todo": {
+        "props": {
+            "id": "submenu-item-iphone-accesorios-ver-todo",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "https://www.iphoneonline.com/t/iphone",
+                "noFollow": false,
+                "tagTitle": "ver todo",
+                "text": "ver todo"
+            }
+        }
+    },
+    "menu-item#iphone-accesorios-comprador": {
+        "props": {
+            "id": "submenu-item-iphone-comprador",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "https://www.iphoneonline.com/t/iphone",
+                "noFollow": false,
+                "tagTitle": "Comprador iPhone",
+                "text": "Comprador iPhone"
+            }
+        }
+    }
+}

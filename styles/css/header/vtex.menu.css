@@ -1,24 +1,46 @@
 /* estilos para el menu en desktop */
 .menuContainer--global__websites :global(.vtex-menu-2-x-styledLinkContainer) {
-  margin-left: 0px;
+  margin-left    : 0px;
   /* margin-right: 0px; */
 }
 
 .menuContainer--global__websites :global(.vtex-menu-2-x-styledLinkContent) {
   font-size: 0.8rem;
-  color: var(--secundary-color);
+  color    : var(--secundary-color);
+}
+
+.menuContainerNav--global__category__menu{
+  width: 100%;
+}
+.menuContainer--global__category__menu{
+  width: 100%;
+}
+
+.submenuWrapper--global__category{
+  width: 900px;
+  border-bottom: 1px solid black;
+  padding: 40px 30px;
+}
+.submenu--global__category{
+justify-content: flex-start;
+}
+
+.submenuWrapper--global__category :global(.vtex-menu-2-x-styledLinkContent){
+  font-size: 0.8rem;
+  color    : var( --primary-color);
 }
 
 /* estilos menu mobile y desktop */
 @media (max-width: 1024px) {
   .menuContainer--global__websites {
     flex-direction: column;
-    margin-left: 1rem;
+    margin-left   : 1rem;
   }
 
   .menuContainer--global__websites :global(.vtex-menu-2-x-menuItem) {
-    margin-top: 1.5rem;
-    padding: 5px;
-    border-bottom: 1px solid #ccc;;
+    margin-top   : 1.5rem;
+    padding      : 5px;
+    border-bottom: 1px solid #ccc;
+    ;
   }
 }

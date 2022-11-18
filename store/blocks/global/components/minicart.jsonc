@@ -35,6 +35,7 @@
     }
   },
   "rich-text#minicart__empty":{
+    "title": "texto Hola, tu carrito se encuentra vacio",
     "props": {
       "text": "Hola, tu carrito se encuentra vacio",
       "textAlignment": "CENTER",
