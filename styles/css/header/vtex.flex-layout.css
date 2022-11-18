@@ -10,3 +10,14 @@
     border          : 1px solid #333333;
     border-radius   : 5px;
 }
+
+/* estilos para menu categoria */
+
+.flexRow--category__menu__row1{
+ width: 100%;
+}
+
+
+.flexRow--category__menu__row1 .flexColChild--category__menu__row1_col{
+padding: 10px 0px;
+}

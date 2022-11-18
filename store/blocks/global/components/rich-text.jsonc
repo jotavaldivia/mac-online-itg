@@ -209,12 +209,5 @@
       "font": "SourceSansPro-Ligth",
       "blockClass": "global__footer__form--title"
     }
-  },
-  // search page
-  "rich-text#global__search__row1_col1--title":{
-    "title": "textom accesorios",
-    "props":{
-      "text":"## Accesorios"
-    }
   }
 }

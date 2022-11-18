@@ -15,6 +15,6 @@
         "fullWidth": true
       },
       "children": ["vtex.menu@2.x:menu#global__websites"]
-      // "children":["mega-menu#desktop", "mega-menu-trigger-btn"]
+      //  "children":["mega-menu#prueba", "mega-menu-trigger-btn"]
     }
   }

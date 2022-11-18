@@ -22,7 +22,8 @@
             "tagTitle": "Mac",
             "text": "Mac"
           }
-      }
+      },
+      "blocks": [ "vtex.menu@2.x:submenu#global__category__mac"]
     },
     "menu-item#ipad": {
         "props": {
@@ -36,7 +37,8 @@
             "tagTitle": "Ipad",
             "text": "Ipad"
           }
-      }
+      },
+      "blocks": ["vtex.menu@2.x:submenu#global__category__ipad"]
     },
     "menu-item#iphone": {
         "props": {
@@ -50,7 +52,8 @@
             "tagTitle": "Iphone",
             "text": "Iphone"
           }
-      }
+      },
+      "blocks": [ "vtex.menu@2.x:submenu#global__category__iphone"]
     },
     "menu-item#watch": {
         "props": {
@@ -64,7 +67,8 @@
             "tagTitle": "Watch",
             "text": "Watch"
           }
-      }
+      },
+      "blocks": [   "vtex.menu@2.x:submenu#global__category__watch"]
     },
     "menu-item#airpods": {
         "props": {

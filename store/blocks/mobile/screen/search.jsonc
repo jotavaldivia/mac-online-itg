@@ -25,7 +25,7 @@
   },
   "flex-layout.col#mobile__search__row1__col1": {
     "children": [
-      "breadcrumb.search#global__breadcrumb"
+      "breadcrumb.search#global__breadcrumb--plp"
     ]
   },
   // "flex-layout.col#mobile__search__row1__col2": {
@@ -44,7 +44,7 @@
   },
   "flex-layout.col#mobile__search__row2__col1": {
     "children": [
-      "rich-text#global__search__row1_col1--title",
+      "search-title.v2",
       "filter-navigator.v3#global__filter_plp"
     ],
     "props": {
@@ -72,7 +72,7 @@
       "not-found"
     ]
   },
-  "breadcrumb.search#global__breadcrumb": {
+  "breadcrumb.search#global__breadcrumb--plp": {
     "props": {
       "showOnMobile": true
     }

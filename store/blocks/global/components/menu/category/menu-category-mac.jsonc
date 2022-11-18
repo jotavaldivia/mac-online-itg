@@ -1,0 +1,336 @@
+// menu mac
+{
+    "vtex.menu@2.x:menu#global__category--mac": {
+        "children": [
+            "flex-layout.row#category-mac__row1"
+        ],
+        "props": {
+            "blockClass":"global__category__menu"
+        }
+    },
+    "flex-layout.row#category-mac__row1": {
+        "children": [
+            "flex-layout.col#category-mac__row1__col1",
+            "flex-layout.col#category-mac__row1__col2",
+            "flex-layout.col#category-mac__row1__col3",
+            "flex-layout.col#category-mac__row1__col4"
+        ],
+        "props": {
+            "blockClass": "category__menu__row1",
+            "fullWidth": true
+        }
+    },
+    "flex-layout.col#category-mac__row1__col1": {
+        "children": [
+            "menu-item#portatil",
+            "menu-item#MacBook-Pro-16-M1-Pro",
+            "menu-item#MacBook-Pro-14-M1-Pro",
+            "menu-item#MacBook-Pro-13-M2",
+            "menu-item#MacBook-Pro-13-M1",
+            "menu-item#MacBook-Pro-16-M1-intel",
+            "menu-item#MacBook-ver-todo"
+        ],
+        "props": {
+            "blockClass": "category__menu__row1_col"
+        }
+    },
+    "menu-item#portatil": {
+        "props": {
+            "id": "submenu-item-portatil",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "https://www.maconline.com/t/mac",
+                "noFollow": false,
+                "tagTitle": "Portatil",
+                "text": "Portatil"
+            }
+        }
+    },
+    "menu-item#MacBook-Pro-16-M1-Pro": {
+        "props": {
+            "id": "submenu-item-MacBook-Pro-16-M1-Pro",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "https://www.maconline.com/t/mac",
+                "noFollow": false,
+                "tagTitle": "MacBook Pro 16 (M1 Pro)",
+                "text": "MacBook Pro 16 (M1 Pro)"
+            }
+        }
+    },
+    "menu-item#MacBook-Pro-14-M1-Pro": {
+        "props": {
+            "id": "submenu-item-MacBook-Pro-14-M1-Pro",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "https://www.maconline.com/t/mac",
+                "noFollow": false,
+                "tagTitle": "MacBook Pro 14 (M1 Pro)",
+                "text": "MacBook Pro 14 (M1 Pro)"
+            }
+        }
+    },
+    "menu-item#MacBook-Pro-13-M2": {
+        "props": {
+            "id": "submenu-item-MacBook-Pro-13-M2",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "https://www.maconline.com/t/mac",
+                "noFollow": false,
+                "tagTitle": "MacBook Pro 13 M2",
+                "text": "MacBook Pro 13 M2"
+            }
+        }
+    },
+    "menu-item#MacBook-Pro-13-M1": {
+        "props": {
+            "id": "submenu-item-MacBook-Pro-13-M1",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "https://www.maconline.com/t/mac",
+                "noFollow": false,
+                "tagTitle": "MacBook Pro 13 M1",
+                "text": "MacBook Pro 13 M1"
+            }
+        }
+    },
+    "menu-item#MacBook-Pro-16-M1-intel": {
+        "props": {
+            "id": "submenu-item-MacBook-Pro-13-M1",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "https://www.maconline.com/t/mac",
+                "noFollow": false,
+                "tagTitle": "MacBook Pro 16 M1 (Intel)",
+                "text": "MacBook Pro 16 M1 (Intel)"
+            }
+        }
+    },
+    "menu-item#MacBook-ver-todo": {
+        "props": {
+            "id": "submenu-item-MacBook-ver-todo",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "https://www.maconline.com/t/mac",
+                "noFollow": false,
+                "tagTitle": "Ver Todo",
+                "text": "Ver Todo"
+            }
+        }
+    },
+    "flex-layout.col#category-mac__row1__col2": {
+        "children": [
+            "menu-item#mac-escriotrio",
+            "menu-item#mac-escriotrio-M1",
+            "menu-item#mac-escriotrio-intel",
+            "menu-item#mac-escritorio-mini-M1",
+            "menu-item#mac-escritorio-studio",
+            "menu-item#mac-escritorio-studio-display",
+            "menu-item#mac-escritorio-ver-todo"
+        ],
+        "props": {
+            "blockClass": "category__menu__row1_col"
+        }
+    },
+    "menu-item#mac-escriotrio": {
+        "props": {
+            "id": "submenu-item-mac-escriotrio",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "https://www.maconline.com/t/mac",
+                "noFollow": false,
+                "tagTitle": "Escriorio",
+                "text": "Escriorio"
+            }
+        }
+    },
+    "menu-item#mac-escriotrio-M1": {
+        "props": {
+            "id": "submenu-item-mac-escriotrio-M1",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "https://www.maconline.com/t/mac",
+                "noFollow": false,
+                "tagTitle": "iMac(M1)",
+                "text": "iMac(M1)"
+            }
+        }
+    },
+    "menu-item#mac-escriotrio-intel": {
+        "props": {
+            "id": "submenu-item-mac-escriotrio-intel",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "https://www.maconline.com/t/mac",
+                "noFollow": false,
+                "tagTitle": "iMac(intel)",
+                "text": "iMac(intel)"
+            }
+        }
+    },
+    "menu-item#mac-escritorio-mini-M1": {
+        "props": {
+            "id": "submenu-item-mac-escritorio-mini-M1",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "https://www.maconline.com/t/mac",
+                "noFollow": false,
+                "tagTitle": "Mac mini (M1)",
+                "text": "Mac mini (M1)"
+            }
+        }
+    },
+    "menu-item#mac-escritorio-studio": {
+        "props": {
+            "id": "submenu-item-mac-escritorio-studio",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "https://www.maconline.com/t/mac",
+                "noFollow": false,
+                "tagTitle": "Mac studio",
+                "text": "Mac studio"
+            }
+        }
+    },
+    "menu-item#mac-escritorio-studio-display": {
+        "props": {
+            "id": "submenu-item-mac-escritorio-studio-display",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "https://www.maconline.com/t/mac",
+                "noFollow": false,
+                "tagTitle": "studio display",
+                "text": "studio display"
+            }
+        }
+    },
+    "menu-item#mac-escritorio-ver-todo": {
+        "props": {
+            "id": "submenu-item-mac-escritorio-ver-todo",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "https://www.maconline.com/t/mac",
+                "noFollow": false,
+                "tagTitle": "Ver todo",
+                "text": "Ver todo"
+            }
+        }
+    },
+    "flex-layout.col#category-mac__row1__col3": {
+        "children": [
+            "menu-item#mac-accesorios",
+            "menu-item#mac-accesorios-ver-todo",
+            "menu-item#mac-accesorios-comparador-mac"
+        ],
+        "props": {
+            "blockClass": "category__menu__row1_col"
+        }
+    },
+    "menu-item#mac-accesorios": {
+        "props": {
+            "id": "submenu-item-mac-accesorios",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "https://www.maconline.com/t/mac",
+                "noFollow": false,
+                "tagTitle": "Accesorios",
+                "text": "Accesorios"
+            }
+        }
+    },
+    "menu-item#mac-accesorios-comparador-mac": {
+        "props": {
+            "id": "submenu-item-mac-accesorios-comparador-mac",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "https://www.maconline.com/t/mac",
+                "noFollow": false,
+                "tagTitle": "Comparador Mac",
+                "text": "Comparador Mac"
+            }
+        }
+    },
+    "menu-item#mac-accesorios-ver-todo": {
+        "props": {
+            "id": "submenu-item-mac-accesorios-ver-todo",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "https://www.maconline.com/t/mac",
+                "noFollow": false,
+                "tagTitle": "Ver todo",
+                "text": "Ver todo"
+            }
+        }
+    },
+    "flex-layout.col#category-mac__row1__col4": {
+        "children": [
+            "menu-item#mac-ofertas",
+            "menu-item#mac-ofertas-ver-todo"
+        ],
+        "props": {
+            "blockClass": "category__menu__row1_col"
+        }
+    },
+    "menu-item#mac-ofertas": {
+        "props": {
+            "id": "submenu-item-mac-ofertas",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "https://www.maconline.com/t/mac",
+                "noFollow": false,
+                "tagTitle": "Mac ofertas",
+                "text": "Mac ofertas"
+            }
+        }
+    },
+    "menu-item#mac-ofertas-ver-todo": {
+        "props": {
+            "id": "submenu-item-mac-ofertas-ver-todo",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "https://www.maconline.com/t/mac",
+                "noFollow": false,
+                "tagTitle": "Ver todo",
+                "text": "Ver todo"
+            }
+        }
+    }
+}

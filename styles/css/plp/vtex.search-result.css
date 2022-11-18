@@ -42,3 +42,9 @@
 .filterPopupArrowIcon--global__filter_plp {
     display: none;
 }
+
+.galleryTitle--layout{
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: #333333;
+}
