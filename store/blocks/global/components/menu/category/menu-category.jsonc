@@ -1,0 +1,41 @@
+{
+    "vtex.menu@2.x:submenu#global__category__mac": {
+        "children": [
+            "vtex.menu@2.x:menu#global__category--mac"
+        ],
+        "props": {
+            "blockClass": "global__category"
+
+        }
+    },
+    "vtex.menu@2.x:submenu#global__category__ipad": {
+        "children": [
+            "vtex.menu@2.x:menu#global__category--ipad"
+        ],
+        "props": {
+            "blockClass": "global__category"
+
+        }
+    },
+    "vtex.menu@2.x:submenu#global__category__iphone": {
+        "children": [
+            "vtex.menu@2.x:menu#global__category--iphone"
+        ],
+        "props": {
+            "blockClass": "global__category"
+
+        }
+    },
+    "vtex.menu@2.x:submenu#global__category__watch": {
+        "children": [
+            "vtex.menu@2.x:menu#global__category--watch"
+        ],
+        "props": {
+            "blockClass": "global__category"
+
+        }
+    }
+
+
+
+}

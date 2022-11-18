@@ -24,18 +24,13 @@
   },
   "flex-layout.col#desktop__search__row1__col1": {
     "children": [
-      "rich-text#global__search__row1_col1--title"
+      "search-title.v2"
     ]
   },
   "flex-layout.col#desktop__search__row1__col2": {
     "children": [
-      "breadcrumb.search#global__breadcrumb"
+      "breadcrumb.search#global__breadcrumb--plp"
     ]
-  },
-  "breadcrumb.search": {
-    "props": {
-      "showOnMobile": true
-    }
   },
   "flex-layout.row#desktop__search__row2": {
     "children": [

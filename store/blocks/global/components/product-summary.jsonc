@@ -4,7 +4,7 @@
           "stack-layout#prodsum",
           "product-summary-name",
           "flex-layout.col#productRating",
-          "product-selling-price",
+          "product-selling-price#summary",
           "product-summary-space",
         //   "product-list-price#summary",
         //   "flex-layout.row#selling-price-savings",
@@ -66,13 +66,13 @@
         "props": {
           "blockClass": "global__search-plp--selling-price"
         }
-      },
-      "product-price-savings#summary": {
-        "props": {
-          "markers": [
-            "discount"
-          ],
-          "blockClass": "global__search-plp--product-price"
-        }
       }
+      // "product-price-savings#summary": {
+      //   "props": {
+      //     "markers": [
+      //       "discount"
+      //     ],
+      //     "blockClass": "global__search-plp--product-price"
+      //   }
+      // }
 }

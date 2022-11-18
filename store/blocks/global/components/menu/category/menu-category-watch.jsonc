@@ -1,0 +1,213 @@
+// menu watch
+{
+    "vtex.menu@2.x:menu#global__category--watch": {
+        "children": [
+            "flex-layout.row#category-watch__row1"
+        ],
+        "props": {
+            "blockClass": "global__category__menu"
+        }
+    },
+    "flex-layout.row#category-watch__row1": {
+        "children": [
+            "flex-layout.col#category-watch__row1__col1",
+            "flex-layout.col#category-watch__row1__col2"
+        ],
+        "props": {
+            "blockClass": "category__menu__row1",
+            "fullWidth": true
+        }
+    },
+    "flex-layout.col#category-watch__row1__col1": {
+        "children": [
+            "menu-item#watch-ultra",
+            "menu-item#watch-series-8",
+            "menu-item#watch-se-2",
+            "menu-item#watch-series-7",
+            "menu-item#watch-nike-series-7",
+            "menu-item#watch-se",
+            "menu-item#watch-nike-se",
+            "menu-item#watch-series-3",
+            "menu-item#watch-ver-todo"
+        ],
+        "props": {
+            "blockClass": "category__menu__row1_col"
+        }
+    },
+    "menu-item#watch-ultra": {
+        "props": {
+            "id": "submenu-item-watch-ultra",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "https://www.watchonline.com/t/watch",
+                "noFollow": false,
+                "tagTitle": "Apple watch ultra",
+                "text": "Apple watch ultra"
+            }
+        }
+    },
+    "menu-item#watch-series-8": {
+        "props": {
+            "id": "submenu-item-watch-series-8",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "https://www.watchonline.com/t/watch",
+                "noFollow": false,
+                "tagTitle": "Apple watch series 8",
+                "text": "Apple watch series 8"
+            }
+        }
+    },
+    "menu-item#watch-se-2": {
+        "props": {
+            "id": "submenu-item-watch-se-2",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "https://www.watchonline.com/t/watch",
+                "noFollow": false,
+                "tagTitle": "Apple watch se (2 gen)",
+                "text": "Apple watch se (2 gen)"
+            }
+        }
+    },
+    "menu-item#watch-series-7": {
+        "props": {
+            "id": "submenu-item-watch-series-7",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "https://www.watchonline.com/t/watch",
+                "noFollow": false,
+                "tagTitle": "Apple watch series 7",
+                "text": "Apple watch series 7"
+            }
+        }
+    },
+    "menu-item#watch-nike-series-7": {
+        "props": {
+            "id": "submenu-item-watch-nike-series-7",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "https://www.watchonline.com/t/watch",
+                "noFollow": false,
+                "tagTitle": "Apple watch nike series 7",
+                "text": "Apple watch nike series 7"
+            }
+        }
+    },
+    "menu-item#watch-se": {
+        "props": {
+            "id": "submenu-item-watch-se",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "https://www.watchonline.com/t/watch",
+                "noFollow": false,
+                "tagTitle": "Apple watch se",
+                "text": "Apple watch se"
+            }
+        }
+    },
+    "menu-item#watch-nike-se": {
+        "props": {
+            "id": "submenu-item-watch-nike-se",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "https://www.watchonline.com/t/watch",
+                "noFollow": false,
+                "tagTitle": "Apple watch nike se",
+                "text": "Apple watch nike se"
+            }
+        }
+    },
+    "menu-item#watch-series-3": {
+        "props": {
+            "id": "submenu-item-watch-series-3",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "https://www.watchonline.com/t/watch",
+                "noFollow": false,
+                "tagTitle": "Apple watch series 3",
+                "text": "Apple watch series 3"
+            }
+        }
+    },
+    "menu-item#watch-ver-todo": {
+        "props": {
+            "id": "submenu-item-watch-ver-todo",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "https://www.watchonline.com/t/watch",
+                "noFollow": false,
+                "tagTitle": "ver todo",
+                "text": "ver todo"
+            }
+        }
+    },
+    "flex-layout.col#category-watch__row1__col2": {
+        "children": [
+            "menu-item#watch-accesorios",  "menu-item#watch-accesorios-ver-todo", "menu-item#watch-accesorios-comparador"
+        ],
+        "props": {
+            "blockClass": "category__menu__row1_col"
+        }
+    },
+    "menu-item#watch-accesorios": {
+        "props": {
+            "id": "submenu-item-watch-accesorios",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "https://www.watchonline.com/t/watch",
+                "noFollow": false,
+                "tagTitle": "Accesorios",
+                "text": "Accesorios"
+            }
+        }
+    },
+    "menu-item#watch-accesorios-ver-todo": {
+        "props": {
+            "id": "submenu-item-watch-accesorios-ver-todo",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "https://www.watchonline.com/t/watch",
+                "noFollow": false,
+                "tagTitle": "ver todo",
+                "text": "ver todo"
+            }
+        }
+    },
+    "menu-item#watch-accesorios-comparador": {
+        "props": {
+            "id": "submenu-item-watch-accesorios-comparador",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "https://www.watchonline.com/t/watch",
+                "noFollow": false,
+                "tagTitle": "comparador Watch",
+                "text": "comparador Watch"
+            }
+        }
+    }
+}
