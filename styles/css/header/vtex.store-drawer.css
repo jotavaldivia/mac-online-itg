@@ -4,7 +4,8 @@
 
 @media (max-width: 1024px) {
   .childrenContainer--mobile__drower :global(.vtex-menu-2-x-menuContainerNav) {
-    width: 95%;
+    width: 100%;
+    margin-top: 1rem;
   }
 
   .drawer--mobile__drower {
