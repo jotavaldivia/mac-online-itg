@@ -14,9 +14,15 @@
 /* estilos para menu categoria */
 
 .flexRow--category__menu__row1{
- width: 100%;
+width: 70% ;
+justify-content: center;
 }
 
+.flexRowContent--category__menu__row1{
+/* max-width: 60vw; */
+justify-content: center !important;
+align-items: flex-start;
+} 
 
 .flexRow--category__menu__row1 .flexColChild--category__menu__row1_col{
 padding: 10px 0px;

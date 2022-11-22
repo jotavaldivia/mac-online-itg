@@ -5,7 +5,6 @@
         ],
         "props": {
             "blockClass": "global__category"
-
         }
     },
     "vtex.menu@2.x:submenu#global__category__ipad": {
@@ -14,7 +13,6 @@
         ],
         "props": {
             "blockClass": "global__category"
-
         }
     },
     "vtex.menu@2.x:submenu#global__category__iphone": {
@@ -23,7 +21,6 @@
         ],
         "props": {
             "blockClass": "global__category"
-
         }
     },
     "vtex.menu@2.x:submenu#global__category__watch": {
@@ -32,10 +29,38 @@
         ],
         "props": {
             "blockClass": "global__category"
-
+        }
+    },
+    "vtex.menu@2.x:submenu#global__category--appletv": {
+        "children": [
+            "vtex.menu@2.x:menu#global__category--appletv"
+        ],
+        "props": {
+            "blockClass": "global__category"
+        }
+    },
+    "vtex.menu@2.x:submenu#global__category--musica": {
+        "children": [
+            "vtex.menu@2.x:menu#global__category--musica"
+        ],
+        "props": {
+            "blockClass": "global__category"
+        }
+    },
+    "vtex.menu@2.x:submenu#global__category--gifcard": {
+        "children": [
+            "vtex.menu@2.x:menu#global__category--gifcard"
+        ],
+        "props": {
+            "blockClass": "global__category"
+        }
+    },
+    "vtex.menu@2.x:submenu#global__category--outlet": {
+        "children": [
+            "vtex.menu@2.x:menu#global__category--outlet"
+        ],
+        "props": {
+            "blockClass": "global__category"
         }
     }
-
-
-
 }

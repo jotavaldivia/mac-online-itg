@@ -45,7 +45,8 @@
                 "noFollow": false,
                 "tagTitle": "Portatil",
                 "text": "Portatil"
-            }
+            },
+            "blockClass": ["menu-item-blue"]
         }
     },
     "menu-item#MacBook-Pro-16-M1-Pro": {
@@ -157,7 +158,8 @@
                 "noFollow": false,
                 "tagTitle": "Escriorio",
                 "text": "Escriorio"
-            }
+            },
+            "blockClass": ["menu-item-blue"]
         }
     },
     "menu-item#mac-escriotrio-M1": {
@@ -265,7 +267,8 @@
                 "noFollow": false,
                 "tagTitle": "Accesorios",
                 "text": "Accesorios"
-            }
+            },
+            "blockClass": ["menu-item-blue"]
         }
     },
     "menu-item#mac-accesorios-comparador-mac": {
@@ -314,9 +317,10 @@
                 "type": "internal",
                 "href": "https://www.maconline.com/t/mac",
                 "noFollow": false,
-                "tagTitle": "Mac ofertas",
-                "text": "Mac ofertas"
-            }
+                "tagTitle": "Ofertas",
+                "text": "Ofertas"
+            },
+            "blockClass": ["menu-item-blue"]
         }
     },
     "menu-item#mac-ofertas-ver-todo": {
