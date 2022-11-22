@@ -1,0 +1,111 @@
+// menu aplle tv
+{
+    "vtex.menu@2.x:menu#global__category--appletv": {
+        "children": [
+            "flex-layout.row#category-appletv__row1"
+        ],
+        "props": {
+            "blockClass": "global__category__menu"
+        }
+    },
+    "flex-layout.row#category-appletv__row1": {
+        "children": [
+            "flex-layout.col#category-appletv__row1__col1",
+            "flex-layout.col#category-appletv__row1__col2"
+        ],
+        "props": {
+            "blockClass": "category__menu__row1",
+            "fullWidth": true
+        }
+    },
+    "flex-layout.col#category-appletv__row1__col1": {
+        "children": [
+            "menu-item#appletv-tv-4k",
+            "menu-item#appletv-tv-hd",
+            "menu-item#appletv-tv-ver-todo"
+        ],
+        "props": {
+            "blockClass": "category__menu__row1_col"
+        }
+    },
+    "menu-item#appletv-tv-4k": {
+        "props": {
+            "id": "submenu-item-appletv-tv-4k",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "https://www.appletvonline.com/t/appletv",
+                "noFollow": false,
+                "tagTitle": "appletv tv 4k",
+                "text": "appletv tv 4k"
+            }
+        }
+    },
+    "menu-item#appletv-tv-hd": {
+        "props": {
+            "id": "submenu-item-appletv-tv-hd",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "https://www.appletvonline.com/t/appletv",
+                "noFollow": false,
+                "tagTitle": "appletv tv hd",
+                "text": "appletv tv hd"
+            }
+        }
+    },
+    "menu-item#appletv-tv-ver-todo": {
+        "props": {
+            "id": "submenu-item-appletv-ver-todo",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "https://www.appletvonline.com/t/appletv",
+                "noFollow": false,
+                "tagTitle": "ver todo",
+                "text": "ver todo"
+            }
+        }
+    },
+    "flex-layout.col#category-appletv__row1__col2": {
+        "children": [
+            "menu-item#appletv-accesorios",
+            "menu-item#appletv-accesorios-ver-todo"
+        ],
+        "props": {
+            "blockClass": "category__menu__row1_col"
+        }
+    },
+    "menu-item#appletv-accesorios": {
+        "props": {
+            "id": "submenu-item-appletv-accesorios",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "https://www.appletvonline.com/t/appletv",
+                "noFollow": false,
+                "tagTitle": "Accesorios",
+                "text": "Accesorios"
+            },
+            "blockClass": ["menu-item-blue"]
+        }
+    },
+    "menu-item#appletv-accesorios-ver-todo": {
+        "props": {
+            "id": "submenu-item-appletv-ver-todo",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "https://www.appletvonline.com/t/appletv",
+                "noFollow": false,
+                "tagTitle": "ver todo",
+                "text": "ver todo"
+            }
+        }
+    }
+}

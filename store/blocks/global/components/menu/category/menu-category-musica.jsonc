@@ -1,0 +1,96 @@
+// menu musica
+{
+    "vtex.menu@2.x:menu#global__category--musica": {
+        "children": [
+            "flex-layout.row#category-musica__row1"
+        ],
+        "props": {
+            "blockClass": "global__category__menu"
+        }
+    },
+    "flex-layout.row#category-musica__row1": {
+        "children": [
+            "flex-layout.col#category-musica__row1__col1",
+            "flex-layout.col#category-musica__row1__col2"
+        ],
+        "props": {
+            "blockClass": "category__menu__row1",
+            "fullWidth": true
+        }
+    },
+    "flex-layout.col#category-musica__row1__col1": {
+        "children": [
+            "menu-item#musica-airpods",
+            "menu-item#musica-audifonos"
+        ],
+        "props": {
+            "blockClass": "category__menu__row1_col"
+        }
+    },
+    "menu-item#musica-airpods": {
+        "props": {
+            "id": "submenu-item-musica-Airpods",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "https://www.musicaonline.com/t/musica",
+                "noFollow": false,
+                "tagTitle": "Airpods",
+                "text": "Airpods"
+            }
+        }
+    },
+    "menu-item#musica-audifonos": {
+        "props": {
+            "id": "submenu-item-musica-audifonos",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "https://www.musicaonline.com/t/musica",
+                "noFollow": false,
+                "tagTitle": "audifonos",
+                "text": "audifonos"
+            }
+        }
+    },
+   
+    "flex-layout.col#category-musica__row1__col2": {
+        "children": [
+            "menu-item#musica-parlantes",
+            "menu-item#musica-accesorios-ver-todo"
+        ],
+        "props": {
+            "blockClass": "category__menu__row1_col"
+        }
+    },
+    "menu-item#musica-parlantes": {
+        "props": {
+            "id": "submenu-item-musica-parlantes",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "https://www.musicaonline.com/t/musica",
+                "noFollow": false,
+                "tagTitle": "parlantes",
+                "text": "parlantes"
+            }
+        }
+    },
+    "menu-item#musica-accesorios-ver-todo": {
+        "props": {
+            "id": "submenu-item-musica-ver-todo",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "https://www.musicaonline.com/t/musica",
+                "noFollow": false,
+                "tagTitle": "ver todo",
+                "text": "ver todo"
+            }
+        }
+    }
+}

@@ -137,7 +137,8 @@
                 "noFollow": false,
                 "tagTitle": "Accesorios",
                 "text": "Accesorios"
-            }
+            },
+            "blockClass": ["menu-item-blue"]
         }
     },
     "menu-item#ipad-accesorios-ver-todo": {
@@ -188,7 +189,8 @@
                 "noFollow": false,
                 "tagTitle": "Ofertas",
                 "text": "Ofertas"
-            }
+            },
+            "blockClass": ["menu-item-blue"]
         }
     },
     "menu-item#ipad-ofertas-ver-todo": {

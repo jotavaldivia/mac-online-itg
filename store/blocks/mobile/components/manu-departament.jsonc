@@ -1,0 +1,273 @@
+{
+    "vtex.menu@2.x:menu#mobile__websites": {
+        "title": "menu prinicpal departamento",
+        "children": [
+            "menu-item#mac-mobile",
+            "menu-item#ipad-mobile",
+            "menu-item#iphone-mobile",
+            "menu-item#watch-mobile",
+            "menu-item#airpods-mobile",
+            "menu-item#appletv-mobile",
+            "menu-item#musica-mobile",
+            "menu-item#accesorios-mobile",
+            "menu-item#soporte-mobile",
+            "menu-item#tradein-mobile",
+            "menu-item#outlet-mobile",
+            "menu-item#blog-mobile",
+            "menu-item#giftcard-mobile"
+        ],
+        "props": {
+            "blockClass": [
+                "global__websites"
+            ]
+        }
+    },
+    "menu-item#mac-mobile": {
+        "props": {
+            "id": "menu-item-mac",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "https://www.maconline.com/t/mac",
+                "noFollow": false,
+                "tagTitle": "Mac",
+                "text": "Mac"
+            },
+            "iconPosition": "right"
+        },
+        "blocks": [
+            "submenu.accordion#mobile__category__mac"
+        ]
+    },
+    "submenu.accordion#mobile__category__mac": {
+        "children": [
+            "vtex.menu@2.x:menu#global__category--mac"
+        ]
+    },
+    "menu-item#ipad-mobile": {
+        "props": {
+            "id": "menu-item-ipad",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "https://www.maconline.com/t/mac",
+                "noFollow": false,
+                "tagTitle": "Ipad",
+                "text": "Ipad"
+            }
+        },
+        "blocks": [
+            "submenu.accordion#mobile__category__ipad"
+        ]
+    },
+    "submenu.accordion#mobile__category__ipad": {
+        "children": [
+            "vtex.menu@2.x:menu#global__category--ipad"
+        ]
+    },
+    "menu-item#iphone-mobile": {
+        "props": {
+            "id": "menu-item-iphone",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "https://www.maconline.com/t/mac",
+                "noFollow": false,
+                "tagTitle": "Iphone",
+                "text": "Iphone"
+            }
+        },
+        "blocks": [
+            "submenu.accordion#mobile__category__iphone"
+        ]
+    },
+    "submenu.accordion#mobile__category__iphone": {
+        "children": [
+            "vtex.menu@2.x:menu#global__category--iphone"
+        ]
+    },
+    "menu-item#watch-mobile": {
+        "props": {
+            "id": "menu-item-watch",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "https://www.maconline.com/t/mac",
+                "noFollow": false,
+                "tagTitle": "Watch",
+                "text": "Watch"
+            }
+        },
+        "blocks": [
+            "submenu.accordion#mobile__category__watch"
+        ]
+    },
+    "submenu.accordion#mobile__category__watch": {
+        "children": [
+            "vtex.menu@2.x:menu#global__category--watch"
+        ]
+    },
+    "menu-item#airpods-mobile": {
+        "props": {
+            "id": "menu-item-airpods",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "https://www.maconline.com/t/mac",
+                "noFollow": false,
+                "tagTitle": "AirPods",
+                "text": "AirPods"
+            }
+        }
+    },
+    "menu-item#appletv-mobile": {
+        "props": {
+            "id": "menu-item-appletv",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "https://www.maconline.com/t/mac",
+                "noFollow": false,
+                "tagTitle": "AppleTv",
+                "text": "AppleTv"
+            }
+        },
+        "blocks": [
+            "submenu.accordion#mobile__category__appletv"
+        ]
+    },
+    "submenu.accordion#mobile__category__appletv": {
+        "children": [
+            // "vtex.menu@2.x:submenu#global__category--appletv"
+            "vtex.menu@2.x:menu#global__category--appletv"
+        ]
+    },
+    "menu-item#musica-mobile": {
+        "props": {
+            "id": "menu-item-musica",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "https://www.maconline.com/t/mac",
+                "noFollow": false,
+                "tagTitle": "Musica",
+                "text": "Musica"
+            }
+        },
+        "blocks": [
+            "submenu.accordion#mobile__category__musica"
+        ]
+    },
+    "submenu.accordion#mobile__category__musica": {
+        "children": [
+            "vtex.menu@2.x:menu#global__category--musica"
+        ]
+    },
+    "menu-item#accesorios-mobile": {
+        "props": {
+            "id": "menu-item-accesorios",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "https://www.maconline.com/t/mac",
+                "noFollow": false,
+                "tagTitle": "Accesorios",
+                "text": "Accesorios"
+            }
+        }
+    },
+    "menu-item#soporte-mobile": {
+        "props": {
+            "id": "menu-item-soporte",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "https://www.maconline.com/t/mac",
+                "noFollow": false,
+                "tagTitle": "Soporte",
+                "text": "Soporte"
+            }
+        }
+    },
+    "menu-item#tradein-mobile": {
+        "props": {
+            "id": "menu-item-tradein",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "https://www.maconline.com/t/mac",
+                "noFollow": false,
+                "tagTitle": "Tradein",
+                "text": "Tradein"
+            }
+        }
+    },
+    "menu-item#outlet-mobile": {
+        "props": {
+            "id": "menu-item-outlet",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "https://www.maconline.com/t/mac",
+                "noFollow": false,
+                "tagTitle": "Outlet",
+                "text": "Outlet"
+            }
+        },
+        "blocks": [
+            "submenu.accordion#mobile__category__outlet"
+        ]
+    },
+    "submenu.accordion#mobile__category__outlet": {
+        "children": [
+            "vtex.menu@2.x:menu#global__category--outlet"
+        ]
+    },
+    "menu-item#blog-mobile": {
+        "props": {
+            "id": "menu-item-blog",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "https://www.maconline.com/t/mac",
+                "noFollow": false,
+                "tagTitle": "Blog",
+                "text": "Blog"
+            }
+        }
+    },
+    "menu-item#giftcard-mobile": {
+        "props": {
+            "id": "menu-item-giftcard",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "https://www.maconline.com/t/mac",
+                "noFollow": false,
+                "tagTitle": "Giftcard",
+                "text": "Giftcard"
+            }
+        },
+        "blocks": [
+            "submenu.accordion#mobile__category__gifcard"
+        ]
+    },
+    "submenu.accordion#mobile__category__gifcard": {
+        "children": [
+            "vtex.menu@2.x:menu#global__category--gifcard"
+        ]
+    }
+}
