@@ -1,0 +1,12 @@
+.flexRowContent--frequent-questions__row2{
+flex-direction: column;
+ max-width: 1350px;
+ margin: 0 auto;
+ padding: 0 50px;
+}
+/* mobile */
+
+.flexRowContent--mobile__frequent-questions__row1__col1 :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+flex-direction: column;
+padding: 10px;
+}

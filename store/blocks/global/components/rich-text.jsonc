@@ -200,7 +200,7 @@
       "blockClass": "global__footer__row2__col4--text1"
     }
   },
-  "rich-text#global__footer__form--title":{
+  "rich-text#global__footer__form--title": {
     "title": "texto newsletter",
     "props": {
       "textAlignment": "LEFT",
@@ -208,6 +208,130 @@
       "text": "SUBSCRÍBETE A NUESTRO NEWSLETTER",
       "font": "SourceSansPro-Ligth",
       "blockClass": "global__footer__form--title"
+    }
+  },
+  // preguntas frecuentes
+  "rich-text#global__frequent-questions--title": {
+    "title": "Preguntas Frecuentes",
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Preguntas Frecuentes",
+      "font": "SourceSansPro-Ligth",
+      "blockClass": "global__frequent-questions--title"
+    }
+  },
+  "rich-text#global__frequent-questions--es-seguro-comprar": {
+    "title": "¿ Es seguro comprar en MacOnline ?",
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "*¿ Es seguro comprar en MacOnline ?*",
+      "font": "SourceSansPro-Ligth",
+      "blockClass": "global__frequent-questions"
+    }
+  },
+  "rich-text#global__frequent-questions--es-seguro-comprar--respuesta": {
+    "title": "¿ Es seguro comprar en MacOnline ?",
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Sí, es seguro, ya que todas las transacciones de nuestra página web son realizadas utilizando el servicio de Webpay de Transbank. Para mayor seguridad, MacOnline nunca tiene acceso a tus números de tarjeta de crédito. Por lo tanto, ninguna de las personas que interfieren en el flujo de compra y despacho nunca tienen acceso a esta información confidencial. Si quieres conocer más sobre el servicio Webpay de Transbank, visita: www.transbank.cl.",
+      "font": "SourceSansPro-Ligth",
+      "blockClass": "global__frequent-questions"
+    }
+  },
+  "rich-text#global__frequent-questions--formas-de-pago": {
+    "title": "¿Existen otras formas de pago?",
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "*¿Existen otras formas de pago?*",
+      "font": "SourceSansPro-Ligth",
+      "blockClass": "global__frequent-questions"
+    }
+  },
+  "rich-text#global__frequent-questions--formas-de-pago--respuesta": {
+    "title": "Si, existen las siguientes formas:",
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Si, existen las siguientes formas:",
+      "font": "SourceSansPro-Ligth",
+      "blockClass": "global__frequent-questions"
+    }
+  },
+  "rich-text#global__frequent-questions--formas-de-pago--respuesta-Transferencia-Bancaria1": {
+    "title": "1. Transferencia Bancaria",
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "1. **Transferencia Bancaria:** Es la forma de pago rápida y sencilla en la que transfieres fondos desde tu cuenta corriente a la cuenta de MacOnline. Los datos necesarios para realizar la transferencia electrónica desde tu banco son: Nombre: Innovación y Tecnología Empresarial ITEM Ltda. Rut: 78.936.330-7 Banco: Banco de Chile Cuenta corriente Nº 8000519701 Email: web@maconline.cl",
+      "font": "SourceSansPro-Ligth",
+      "blockClass": "global__frequent-questions"
+    }
+  },
+  "rich-text#global__frequent-questions--formas-de-pago--respuesta-Transferencia-Bancaria2": {
+    "title": "2. Transferencia Bancaria",
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "2. **Depósito Bancario:** Corresponde al depósito en la cuenta corriente directamente ejecutado en la caja del Banco. Los datos para realizar la colilla de depósito son: Nombre: Innovación y Tecnología Empresarial ITEM Ltda.\n Banco: Banco de Chile \n Cuenta corriente Nº 8000519701 \n *Te pedimos que antes de realizar la transferencia, te comuniques con nosotros al (+56-2) 2562 3200, opción 4, de lunes a viernes, en horario de oficina para verificar stock y asegurar que tu orden este ingresada. Una vez realizada la transferencia, MacOnline verificará tus datos y después de esto se procederá al despacho*.",
+      "blockClass": "global__frequent-questions"
+    }
+  },
+  "rich-text#global__frequent-questions--costo-despacho": {
+    "title": "¿Tiene costo el despacho?",
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "*¿Tiene costo el despacho?*",
+      "blockClass": "global__frequent-questions"
+    }
+  },
+  "rich-text#global__frequent-questions--costo-despacho--respuesta": {
+    "title": "Tiene costo el despacho respuesta",
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "El despacho tiene un costo de $2.000 CLP (IVA incluido), en cada uno de los productos, este costo está detallado en su compra en línea.",
+      "blockClass": "global__frequent-questions"
+    }
+  },
+  "rich-text#global__frequent-questions--demora-despacho": {
+    "title": "¿Cuánto demora el despacho?",
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "*¿Cuánto demora el despacho?*",
+      "blockClass": "global__frequent-questions"
+    }
+  },
+  "rich-text#global__frequent-questions--demora-despacho--respuesta": {
+    "title": "Cuánto demora el despacho respuesta ",
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "En Santiago (área urbana), de 24 a 72 horas hábiles. A regiones, de 3 a 6 días hábiles (tiempos se pueden ver afectados dependiendo de la localidad). Los despachos se realizan de lunes a viernes, de 09:00 a 18:00 horas, por lo tanto, si compras alguno de nuestros productos el día viernes después del horario de oficina, tu orden de despacho será procesada el día hábil siguiente. El horario de compra será considerado a partir de realizada la validación de tus datos personales. No realizamos despachos a la Antártica, Isla de Pascua ni a la Isla Juan Fernández",
+      "blockClass": "global__frequent-questions"
+    }
+  },
+  "rich-text#global__frequent-questions--millas-latam": {
+    "title": "¿Puedo acumular MIllas LATAM Pass comprando por internet?",
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "*¿Puedo acumular MIllas LATAM Pass comprando por internet?*",
+      "blockClass": "global__frequent-questions"
+    }
+  },
+  "rich-text#global__frequent-questions--millas-latam--respuesta": {
+    "title": "Puedo acumular MIllas LATAM Pass comprando por internet respuesta",
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Las compras realizadas en MacOnline.com no acumulan Millas LATAM Pass. \n  - Para compras en www.maconline.com o a través de televentas no aplica el derecho de retracto establecido en la Ley N° 19.496 para compras no presenciales. Si tienes alguna duda o consulta en el proceso de tu compra puedes enviar un mail a web@maconline.cl o bien llamar al (56) - 2562 3200 opción 4 de lunes a viernes de 8:00 a 18:00, donde un ejecutivo de ventas responderá a tus inquietudes.",
+      "blockClass": "global__frequent-questions"
     }
   }
 }
