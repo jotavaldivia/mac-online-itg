@@ -4,7 +4,9 @@
     },
     "store.custom#frequent-questions": {
         "path": "/preguntas-frecuentes"
+    },
+    "store.custom#mac": {
+        "path": "/mac"
     }
-
 
 }

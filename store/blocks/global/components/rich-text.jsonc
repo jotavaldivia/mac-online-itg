@@ -333,5 +333,23 @@
       "text": "Las compras realizadas en MacOnline.com no acumulan Millas LATAM Pass. \n  - Para compras en www.maconline.com o a través de televentas no aplica el derecho de retracto establecido en la Ley N° 19.496 para compras no presenciales. Si tienes alguna duda o consulta en el proceso de tu compra puedes enviar un mail a web@maconline.cl o bien llamar al (56) - 2562 3200 opción 4 de lunes a viernes de 8:00 a 18:00, donde un ejecutivo de ventas responderá a tus inquietudes.",
       "blockClass": "global__frequent-questions"
     }
+  },
+  "rich-text#global__mac--title": {
+    "title": "mAc",
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Mac",
+      "blockClass": "global__mac--title"
+    }
+  },
+  "rich-text#global__mac--breadCrumb": {
+    "title": "breadCrumb",
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "inicio / mac",
+      "blockClass": "global__mac--breadCrumb"
+    }
   }
 }
