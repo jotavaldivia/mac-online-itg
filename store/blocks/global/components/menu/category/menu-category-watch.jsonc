@@ -179,7 +179,8 @@
                 "noFollow": false,
                 "tagTitle": "Accesorios",
                 "text": "Accesorios"
-            }
+            },
+            "blockClass": ["menu-item-blue"]
         }
     },
     "menu-item#watch-accesorios-ver-todo": {

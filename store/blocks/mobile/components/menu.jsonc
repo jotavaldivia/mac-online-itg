@@ -1,7 +1,7 @@
 {
     "menu#drawer": {
         "children": [
-            "vtex.menu@2.x:menu#global__websites"
+          "vtex.menu@2.x:menu#mobile__websites"
         ],
         "props": {
           "orientation": "vertical"

@@ -12,8 +12,9 @@
     },
     "flex-layout.col#global__product__col1": {
         "children": [
-            "breadcrumb.search#global__breadcrumb--pdp"
+            "breadcrumb.search#global__breadcrumb--pdp",
+            "rich-text#global__headband--store"
         ]
     },
     "flex-layout.col#global__product__col2": {}
-}
+ }

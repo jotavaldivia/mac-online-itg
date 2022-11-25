@@ -1,0 +1,123 @@
+{
+    "responsive-layout.mobile#frequent-questions": {
+        "children": [
+            "rich-text#global__frequent-questions--title",
+            "flex-layout.row#mobile__frequent-questions__row1"
+        ]
+    },
+    "flex-layout.row#mobile__frequent-questions__row1": {
+        "children": [
+            "flex-layout.row#mobile__frequent-questions__row1__col1"
+        ]
+    },
+    "flex-layout.row#mobile__frequent-questions__row1__col1": {
+        "children": [
+            
+            "disclosure-layout#mobile__frequent-questions1",
+            "disclosure-layout#mobile__frequent-questions2",
+            "disclosure-layout#mobile__frequent-questions3",
+            "disclosure-layout#mobile__frequent-questions4",
+            "disclosure-layout#mobile__frequent-questions5"
+        ],
+        "props": {
+            "blockClass": "mobile__frequent-questions__row1__col1"
+        }
+    },
+    "disclosure-layout#mobile__frequent-questions1": {
+        "children": [
+            "disclosure-trigger#mobile__frequent-questions1",
+            "disclosure-content#mobile__frequent-questions1"
+        ]
+    },
+    "disclosure-trigger#mobile__frequent-questions1": {
+        "children": [
+            "rich-text#global__frequent-questions--es-seguro-comprar"
+        ],
+        "props": {
+            "blockClass":"mobile__frequent-questions--es-seguro-comprar"
+        }
+    },
+    "disclosure-content#mobile__frequent-questions1": {
+        "children": [
+            "rich-text#global__frequent-questions--es-seguro-comprar--respuesta"
+        ]
+    },
+    "disclosure-layout#mobile__frequent-questions2": {
+        "children": [
+            "disclosure-trigger#mobile__frequent-questions2",
+            "disclosure-content#mobile__frequent-questions2"
+        ]
+    },
+    "disclosure-trigger#mobile__frequent-questions2": {
+        "children": [
+            "rich-text#global__frequent-questions--formas-de-pago"
+        ],
+        "props": {
+            "blockClass":"mobile__frequent-questions--es-seguro-comprar"
+        }
+    },
+    "disclosure-content#mobile__frequent-questions2": {
+        "children": [
+            "rich-text#global__frequent-questions--formas-de-pago--respuesta",
+            "rich-text#global__frequent-questions--formas-de-pago--respuesta-Transferencia-Bancaria1",
+            "rich-text#global__frequent-questions--formas-de-pago--respuesta-Transferencia-Bancaria2"
+        ]
+    },
+    "disclosure-layout#mobile__frequent-questions3": {
+        "children": [
+            "disclosure-trigger#mobile__frequent-questions3",
+            "disclosure-content#mobile__frequent-questions3"
+        ]
+    },
+    "disclosure-trigger#mobile__frequent-questions3": {
+        "children": [
+            "rich-text#global__frequent-questions--costo-despacho"
+        ],
+        "props": {
+            "blockClass":"mobile__frequent-questions--es-seguro-comprar"
+        }
+    },
+    "disclosure-content#mobile__frequent-questions3": {
+        "children": [
+            "rich-text#global__frequent-questions--costo-despacho--respuesta"
+        ]
+    },
+    "disclosure-layout#mobile__frequent-questions4": {
+        "children": [
+            "disclosure-trigger#mobile__frequent-questions4",
+            "disclosure-content#mobile__frequent-questions4"
+        ]
+    },
+    "disclosure-trigger#mobile__frequent-questions4": {
+        "children": [
+            "rich-text#global__frequent-questions--demora-despacho"
+        ],
+        "props": {
+            "blockClass":"mobile__frequent-questions--es-seguro-comprar"
+        }
+    },
+    "disclosure-content#mobile__frequent-questions4": {
+        "children": [
+            "rich-text#global__frequent-questions--demora-despacho--respuesta"
+        ]
+    },
+    "disclosure-layout#mobile__frequent-questions5": {
+        "children": [
+            "disclosure-trigger#mobile__frequent-questions5",
+            "disclosure-content#mobile__frequent-questions5"
+        ]
+    },
+    "disclosure-trigger#mobile__frequent-questions5": {
+        "children": [
+            "rich-text#global__frequent-questions--millas-latam"
+        ],
+        "props": {
+            "blockClass":"mobile__frequent-questions--es-seguro-comprar"
+        }
+    },
+    "disclosure-content#mobile__frequent-questions5": {
+        "children": [
+            "rich-text#global__frequent-questions--millas-latam--respuesta"
+        ]
+    }
+}

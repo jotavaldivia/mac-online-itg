@@ -1,0 +1,9 @@
+{
+    "store.custom#frequent-questions": {
+        "blocks": [
+            "responsive-layout.desktop#frequent-questions",
+            "responsive-layout.mobile#frequent-questions"
+        ]
+    }
+   
+}

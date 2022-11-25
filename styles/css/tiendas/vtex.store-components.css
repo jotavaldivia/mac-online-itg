@@ -1,0 +1,16 @@
+.infoCardHeadline--global__info-card__our-shops{
+color: white;
+}
+
+.infoCardContainer--global__info-card__our-shops{
+    height: 180px;
+}
+
+.infoCardHeadline--global__info-card__our-shops{
+    margin-top: 5rem;
+    margin-left: 6rem;
+}
+
+.infoCardTextContainer--global__info-card__our-shops :global(.vtex-button){
+display: none;
+}

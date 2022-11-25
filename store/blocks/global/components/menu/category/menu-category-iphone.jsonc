@@ -226,7 +226,8 @@
                 "noFollow": false,
                 "tagTitle": "Accesorios",
                 "text": "Accesorios"
-            }
+            },
+            "blockClass": ["menu-item-blue"]
         }
     },
     "menu-item#iphone-accesorios-ver todo": {

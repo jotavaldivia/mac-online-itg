@@ -1,199 +1,232 @@
 {
-    "vtex.menu@2.x:menu#global__websites": {
-      "title": "menu prinicpal departamento",
-        "children": [
-          "menu-item#mac","menu-item#ipad","menu-item#iphone", "menu-item#watch","menu-item#airpods",
-          "menu-item#appletv", "menu-item#musica","menu-item#accesorios", "menu-item#soporte","menu-item#tradein",
-          "menu-item#outlet","menu-item#blog","menu-item#giftcard"
-        ],
-        "props": {
-            "blockClass": ["global__websites"]
-        }
+  "vtex.menu@2.x:menu#global__websites": {
+    "title": "menu prinicpal departamento",
+    "children": [
+      "menu-item#mac",
+      "menu-item#ipad",
+      "menu-item#iphone",
+      "menu-item#watch",
+      "menu-item#airpods",
+      "menu-item#appletv",
+      "menu-item#musica",
+      "menu-item#accesorios",
+      "menu-item#soporte",
+      "menu-item#tradein",
+      "menu-item#outlet",
+      "menu-item#blog",
+      "menu-item#giftcard"
+    ],
+    "props": {
+      "blockClass": [
+        "global__websites"
+      ]
+    }
+  },
+  "menu-item#mac": {
+    "props": {
+      "id": "menu-item-mac",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.maconline.com/t/mac",
+        "noFollow": false,
+        "tagTitle": "Mac",
+        "text": "Mac"
       },
-      "menu-item#mac": {
-        "props": {
-          "id": "menu-item-mac",
-          "type": "custom",
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "https://www.maconline.com/t/mac",
-            "noFollow": false,
-            "tagTitle": "Mac",
-            "text": "Mac"
-          }
-      },
-      "blocks": [ "vtex.menu@2.x:submenu#global__category__mac"]
+      "iconPosition": "right"
     },
-    "menu-item#ipad": {
-        "props": {
-          "id": "menu-item-ipad",
-          "type": "custom",
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "https://www.maconline.com/t/mac",
-            "noFollow": false,
-            "tagTitle": "Ipad",
-            "text": "Ipad"
-          }
-      },
-      "blocks": ["vtex.menu@2.x:submenu#global__category__ipad"]
-    },
-    "menu-item#iphone": {
-        "props": {
-          "id": "menu-item-iphone",
-          "type": "custom",
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "https://www.maconline.com/t/mac",
-            "noFollow": false,
-            "tagTitle": "Iphone",
-            "text": "Iphone"
-          }
-      },
-      "blocks": [ "vtex.menu@2.x:submenu#global__category__iphone"]
-    },
-    "menu-item#watch": {
-        "props": {
-          "id": "menu-item-watch",
-          "type": "custom",
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "https://www.maconline.com/t/mac",
-            "noFollow": false,
-            "tagTitle": "Watch",
-            "text": "Watch"
-          }
-      },
-      "blocks": [   "vtex.menu@2.x:submenu#global__category__watch"]
-    },
-    "menu-item#airpods": {
-        "props": {
-          "id": "menu-item-airpods",
-          "type": "custom",
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "https://www.maconline.com/t/mac",
-            "noFollow": false,
-            "tagTitle": "AirPods",
-            "text": "AirPods"
-          }
+    "blocks": [
+      "vtex.menu@2.x:submenu#global__category__mac"
+    ]
+  },
+  "menu-item#ipad": {
+    "props": {
+      "id": "menu-item-ipad",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.maconline.com/t/mac",
+        "noFollow": false,
+        "tagTitle": "Ipad",
+        "text": "Ipad"
       }
     },
-    "menu-item#appletv": {
-        "props": {
-          "id": "menu-item-appletv",
-          "type": "custom",
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "https://www.maconline.com/t/mac",
-            "noFollow": false,
-            "tagTitle": "AppleTv",
-            "text": "AppleTv"
-          }
+    "blocks": [
+      "vtex.menu@2.x:submenu#global__category__ipad"
+    ]
+  },
+  "menu-item#iphone": {
+    "props": {
+      "id": "menu-item-iphone",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.maconline.com/t/mac",
+        "noFollow": false,
+        "tagTitle": "Iphone",
+        "text": "Iphone"
       }
     },
-    "menu-item#musica": {
-        "props": {
-          "id": "menu-item-musica",
-          "type": "custom",
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "https://www.maconline.com/t/mac",
-            "noFollow": false,
-            "tagTitle": "Musica",
-            "text": "Musica"
-          }
+    "blocks": [
+      "vtex.menu@2.x:submenu#global__category__iphone"
+    ]
+  },
+  "menu-item#watch": {
+    "props": {
+      "id": "menu-item-watch",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.maconline.com/t/mac",
+        "noFollow": false,
+        "tagTitle": "Watch",
+        "text": "Watch"
       }
     },
-    "menu-item#accesorios": {
-        "props": {
-          "id": "menu-item-accesorios",
-          "type": "custom",
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "https://www.maconline.com/t/mac",
-            "noFollow": false,
-            "tagTitle": "Accesorios",
-            "text": "Accesorios"
-          }
-      }
-    },
-    "menu-item#soporte": {
-        "props": {
-          "id": "menu-item-soporte",
-          "type": "custom",
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "https://www.maconline.com/t/mac",
-            "noFollow": false,
-            "tagTitle": "Soporte",
-            "text": "Soporte"
-          }
-      }
-    },
-    "menu-item#tradein": {
-        "props": {
-          "id": "menu-item-tradein",
-          "type": "custom",
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "https://www.maconline.com/t/mac",
-            "noFollow": false,
-            "tagTitle": "Tradein",
-            "text": "Tradein"
-          }
-      }
-    },
-    "menu-item#outlet": {
-        "props": {
-          "id": "menu-item-outlet",
-          "type": "custom",
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "https://www.maconline.com/t/mac",
-            "noFollow": false,
-            "tagTitle": "Outlet",
-            "text": "Outlet"
-          }
-      }
-    },
-    "menu-item#blog": {
-        "props": {
-          "id": "menu-item-blog",
-          "type": "custom",
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "https://www.maconline.com/t/mac",
-            "noFollow": false,
-            "tagTitle": "Blog",
-            "text": "Blog"
-          }
-      }
-    },
-    "menu-item#giftcard": {
-        "props": {
-          "id": "menu-item-giftcard",
-          "type": "custom",
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "https://www.maconline.com/t/mac",
-            "noFollow": false,
-            "tagTitle": "Giftcard",
-            "text": "Giftcard"
-          }
+    "blocks": [
+      "vtex.menu@2.x:submenu#global__category__watch"
+    ]
+  },
+  "menu-item#airpods": {
+    "props": {
+      "id": "menu-item-airpods",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.maconline.com/t/mac",
+        "noFollow": false,
+        "tagTitle": "AirPods",
+        "text": "AirPods"
       }
     }
+  },
+  "menu-item#appletv": {
+    "props": {
+      "id": "menu-item-appletv",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.maconline.com/t/mac",
+        "noFollow": false,
+        "tagTitle": "AppleTv",
+        "text": "AppleTv"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#global__category--appletv"
+    ]
+  },
+  "menu-item#musica": {
+    "props": {
+      "id": "menu-item-musica",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.maconline.com/t/mac",
+        "noFollow": false,
+        "tagTitle": "Musica",
+        "text": "Musica"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#global__category--musica"
+    ]
+  },
+  "menu-item#accesorios": {
+    "props": {
+      "id": "menu-item-accesorios",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.maconline.com/t/mac",
+        "noFollow": false,
+        "tagTitle": "Accesorios",
+        "text": "Accesorios"
+      }
+    }
+  },
+  "menu-item#soporte": {
+    "props": {
+      "id": "menu-item-soporte",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.maconline.com/t/mac",
+        "noFollow": false,
+        "tagTitle": "Soporte",
+        "text": "Soporte"
+      }
+    }
+  },
+  "menu-item#tradein": {
+    "props": {
+      "id": "menu-item-tradein",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.maconline.com/t/mac",
+        "noFollow": false,
+        "tagTitle": "Tradein",
+        "text": "Tradein"
+      }
+    }
+  },
+  "menu-item#outlet": {
+    "props": {
+      "id": "menu-item-outlet",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.maconline.com/t/mac",
+        "noFollow": false,
+        "tagTitle": "Outlet",
+        "text": "Outlet"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#global__category--outlet"
+    ]
+  },
+  "menu-item#blog": {
+    "props": {
+      "id": "menu-item-blog",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.maconline.com/t/mac",
+        "noFollow": false,
+        "tagTitle": "Blog",
+        "text": "Blog"
+      }
+    }
+  },
+  "menu-item#giftcard": {
+    "props": {
+      "id": "menu-item-giftcard",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.maconline.com/t/mac",
+        "noFollow": false,
+        "tagTitle": "Giftcard",
+        "text": "Giftcard"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#global__category--gifcard"
+    ]
+  }
 }
