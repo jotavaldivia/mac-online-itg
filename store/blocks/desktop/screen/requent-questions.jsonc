@@ -1,0 +1,48 @@
+{
+    "responsive-layout.desktop#frequent-questions": {
+        "children": [
+            "flex-layout.row#frequent-questions__row1",
+            "flex-layout.row#frequent-questions__row2"
+        ]
+    },
+    "flex-layout.row#frequent-questions__row1": {
+        "title": "contenedor texto preguntas frecuentes",
+        "children": [
+            "flex-layout.row#frequent-questions__row1__col1"
+        ],
+        "props": {
+            "fullWidth": true,
+            "blockClass": "frequent-questions__row1"
+        }
+    },
+    "flex-layout.row#frequent-questions__row1__col1": {
+        "children": [
+            "rich-text#global__frequent-questions--title"
+        ]
+    },
+    "flex-layout.row#frequent-questions__row2": {
+        "children": [
+            "flex-layout.col#frequent-questions__row2__col1"
+        ],
+        "props": {
+            "fullWidth": true,
+            "blockClass": "frequent-questions__row2"
+        }
+    },
+    "flex-layout.col#frequent-questions__row2__col1": {
+        "children": [
+            "rich-text#global__frequent-questions--es-seguro-comprar",
+            "rich-text#global__frequent-questions--es-seguro-comprar--respuesta",
+            "rich-text#global__frequent-questions--formas-de-pago",
+            "rich-text#global__frequent-questions--formas-de-pago--respuesta",
+            "rich-text#global__frequent-questions--formas-de-pago--respuesta-Transferencia-Bancaria1",
+            "rich-text#global__frequent-questions--formas-de-pago--respuesta-Transferencia-Bancaria2",
+            "rich-text#global__frequent-questions--costo-despacho",
+            "rich-text#global__frequent-questions--costo-despacho--respuesta",
+            "rich-text#global__frequent-questions--demora-despacho",
+            "rich-text#global__frequent-questions--demora-despacho--respuesta",
+            "rich-text#global__frequent-questions--millas-latam",
+            "rich-text#global__frequent-questions--millas-latam--respuesta"
+        ]
+    }
+}

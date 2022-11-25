@@ -1,0 +1,36 @@
+{
+    "shelf#mac": {
+        "blocks": [
+            "product-summary.shelf#global__mac__product"
+        ],
+        "props":{
+            "order":"OrderByTopSaleDESC",
+            "paginationDotsVisibility" :"",
+            "productList":{
+                "maxItems:":10,
+                "itemsPerPage":10,
+                "titleText":"",
+                "arrows":false,
+                "gap":"ph3"
+
+            }
+        }
+    },
+    "shelf#mac-recommended": {
+        "blocks": [
+            "product-summary.shelf#global__mac__product"
+        ],
+        "props":{
+            "order":"OrderByTopSaleDESC",
+            "paginationDotsVisibility" :"",
+            "productList":{
+                "maxItems:":3,
+                "itemsPerPage":3,
+                "titleText":"",
+                "arrows":true,
+                "gap":"ph5"
+
+            }
+        }
+    }
+}

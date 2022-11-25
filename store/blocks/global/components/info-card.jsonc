@@ -242,5 +242,19 @@
       "linkTarget": "www.google.cl",
       "imageActionUrl": "www.google.cl"
     }
+  },
+  // pagina statica tiendas
+  "info-card#global__info-card__our-shops": {
+    "title":"Nuestras Tiendas",
+    "props": {
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "assets/images/tiendas/tiendas__info-card__our-shops.jpg",
+      "headline": "Nuestras Tiendas",
+      "blockClass": [
+        "global__info-card__our-shops"
+      ]
+    }
   }
+
 }

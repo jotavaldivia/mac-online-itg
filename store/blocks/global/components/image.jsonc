@@ -1,79 +1,128 @@
 {
-    "logo": {
-        "props": {
-          "title": "Logo",
-          "href": "/",
-          "url": "assets/images/maconline_logo.png",
-          "width": "180"
-        }
-   },
-   "image#global__footer__row2__col3--img1": {
+  "logo": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/images/maconline_logo.png",
+      "width": "180"
+    }
+  },
+  "image#global__footer__row2__col3--img1": {
     "title": "imagen webpay",
     "props": {
       "src": "assets/images/footer/footer_webpay.png",
       "maxHeight": "100%"
     }
   },
-  "image#global__footer__row2__col4--img1":{  
+  "image#global__footer__row2__col4--img1": {
     "title": "imagen adobe",
-     "props": {
-    "src": "assets/images/footer/footer_adobe.png",
-    "maxHeight": "100%"
-  }},
-  "image#global__footer__row3__col1--img1":{  
+    "props": {
+      "src": "assets/images/footer/footer_adobe.png",
+      "maxHeight": "100%"
+    }
+  },
+  "image#global__footer__row3__col1--img1": {
     "title": "imagen maconline footer",
     "props": {
-   "src": "assets/images/footer/footer_maconline.png",
-   "maxHeight": "100%"
- }},
- 
- "image#global__footer__row2-1_col1--img1" :{  
-  "title": "imagen 24 cuotas",
+      "src": "assets/images/footer/footer_maconline.png",
+      "maxHeight": "100%"
+    }
+  },
+  "image#global__footer__row2-1_col1--img1": {
+    "title": "imagen 24 cuotas",
     "props": {
-   "src": "assets/images/footer/24_cuotas.png",
-   "maxHeight": "100%",
-   "blockClass":"global__footer__row2-1_col1--img1"
- }},
- "image#global__footer__row2-1_col1--img2":{  
-  "title": "imagen santander",
-  "props": {
- "src": "assets/images/footer/santander-white.svg",
- "maxHeight": "100%",
- "blockClass":"global__footer__row2-1_col1--img2"
-}},
-"image#global__footer__row2-1_col1--img3":{  
-  "title": "imagen banco de chile",
-  "props": {
- "src": "assets/images/footer/bancodechile-white.svg",
- "maxHeight": "100%",
- "blockClass":"global__footer__row2-1_col1--img3"
-}},
-"image#global__footer__row2-1_col1--img4":{  
-  "title": "imagen bci",
-  "props": {
- "src": "assets/images/footer/bci-white.svg",
- "maxHeight": "100%",
- "blockClass":"global__footer__row2-1_col1--img4"
-}},
-"image#global__footer__row2-1_col1--img5":{  
-  "title": "imagen scotiabank",
-  "props": {
- "src": "assets/images/footer/scotiabank-white.svg",
- "maxHeight": "100%",
- "blockClass":"global__footer__row2-1_col1--img5"
-}},
-"image#global__footer__row2-1_col1--img6":{  
-  "title": "imagen itau",
-  "props": {
- "src": "assets/images/footer/itau-white.svg",
- "maxHeight": "100%",
- "blockClass":"global__footer__row2-1_col1--img6"
-}},
-"image#global__footer__row2-1_col1--img7":{  
-  "title": "imagen bice",
-  "props": {
- "src": "assets/images/footer/bice-white.svg",
- "maxHeight": "100%",
- "blockClass":"global__footer__row2-1_col1--img7"
-}}
+      "src": "assets/images/footer/24_cuotas.png",
+      "maxHeight": "100%",
+      "blockClass": "global__footer__row2-1_col1--img1"
+    }
+  },
+  "image#global__footer__row2-1_col1--img2": {
+    "title": "imagen santander",
+    "props": {
+      "src": "assets/images/footer/santander-white.svg",
+      "maxHeight": "100%",
+      "blockClass": "global__footer__row2-1_col1--img2"
+    }
+  },
+  "image#global__footer__row2-1_col1--img3": {
+    "title": "imagen banco de chile",
+    "props": {
+      "src": "assets/images/footer/bancodechile-white.svg",
+      "maxHeight": "100%",
+      "blockClass": "global__footer__row2-1_col1--img3"
+    }
+  },
+  "image#global__footer__row2-1_col1--img4": {
+    "title": "imagen bci",
+    "props": {
+      "src": "assets/images/footer/bci-white.svg",
+      "maxHeight": "100%",
+      "blockClass": "global__footer__row2-1_col1--img4"
+    }
+  },
+  "image#global__footer__row2-1_col1--img5": {
+    "title": "imagen scotiabank",
+    "props": {
+      "src": "assets/images/footer/scotiabank-white.svg",
+      "maxHeight": "100%",
+      "blockClass": "global__footer__row2-1_col1--img5"
+    }
+  },
+  "image#global__footer__row2-1_col1--img6": {
+    "title": "imagen itau",
+    "props": {
+      "src": "assets/images/footer/itau-white.svg",
+      "maxHeight": "100%",
+      "blockClass": "global__footer__row2-1_col1--img6"
+    }
+  },
+  "image#global__footer__row2-1_col1--img7": {
+    "title": "imagen bice",
+    "props": {
+      "src": "assets/images/footer/bice-white.svg",
+      "maxHeight": "100%",
+      "blockClass": "global__footer__row2-1_col1--img7"
+    }
+  },
+  // pagina de mac
+  "image#global__mac__slider--img1": {
+    "title": "imagen mac 1",
+    "props": {
+      "src": "assets/images/mac/global__mac__slider-1.jpg",
+      "maxHeight": "100%",
+      "blockClass": "global__mac__slider--img1"
+    }
+  },
+  "image#global__mac__slider--img2": {
+    "title": "imagen mac 2",
+    "props": {
+      "src": "assets/images/mac/global__mac__slider-2.jpg",
+      "maxHeight": "100%",
+      "blockClass": "global__mac__slider--img2"
+    }
+  },
+  "image#global__mac__footer--img1": {
+    "title": "imagen footer 1",
+    "props": {
+      "src": "assets/images/mac/global__microsoft.png",
+      "maxHeight": "100%",
+      "blockClass": "global__mac__footer--img1"
+    }
+  },
+  "image#global__mac__footer--img2": {
+    "title": "imagen footer 2",
+    "props": {
+      "src": "assets/images/mac/global__12cuotas.png",
+      "maxHeight": "100%",
+      "blockClass": "global__mac__footer--img2"
+    }
+  },
+  "image#global__mac__footer--img3": {
+    "title": "imagen footer 3",
+    "props": {
+      "src": "assets/images/mac/global__garantia.png",
+      "maxHeight": "100%",
+      "blockClass": "global__mac__footer--img3"
+    }
+  }
 }
