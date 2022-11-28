@@ -1,7 +1,10 @@
 {
   "tab-layout#global__container__lastentries__row2__col1--menu": {
     "title": "contenedor para la lista de entradas",
-    "children": ["tab-list#global__lastentries__tablist","tab-content#All"],
+    "children": [
+      "tab-list#global__lastentries__tablist",
+      "tab-content#All"
+    ],
     "props": {
       "blockClass": "global__container__lastentries__row2__col1--menu",
       "defaultActiveTabId": "All"
@@ -82,6 +85,57 @@
       "tabId": "FitnessHealth",
       "label": "Fitness & Health",
       "blockClass": "gobal__lastentries__tablist-item"
+    }
+  },
+  // tab layout para pdp
+  "tab-layout#global__pdp": {
+    "title": "contenedor para la lista de entradas",
+    "children": [
+      "tab-list.item#pdp__descriptions",
+      "tab-list.item#pdp__data-sheet",
+      "tab-list.item#pdp__warranty",
+      "tab-list.item#pdp__price-history"
+
+    ],
+    "props": {
+      "blockClass": "global__pdp",
+      "defaultActiveTabId": "All"
+    }
+  },
+  "tab-list.item#pdp__descriptions": {
+    "title": "Descripción",
+    "props": {
+      "tabId": "Descripción",
+      "label": "Descripción",
+      "defaultActiveTab": true,
+      "blockClass": "global__pdp__tab-layout"
+    }
+  },
+  "tab-list.item#pdp__data-sheet": {
+    "title": "Ficha Técnica",
+    "props": {
+      "tabId": "Ficha Técnica",
+      "label": "Ficha Técnica",
+      "defaultActiveTab": true,
+      "blockClass": "global__pdp__tab-layout"
+    }
+  },
+  "tab-list.item#pdp__warranty": {
+    "title": "Garantía",
+    "props": {
+      "tabId": "Garantía",
+      "label": "Garantía",
+      "defaultActiveTab": true,
+      "blockClass": "global__pdp__tab-layout"
+    }
+  },
+  "tab-list.item#pdp__price-history": {
+    "title": "Historial de precios",
+    "props": {
+      "tabId": "Historial de precios",
+      "label": "Historial de precios",
+      "defaultActiveTab": true,
+      "blockClass": "global__pdp__tab-layout"
     }
   }
 }
