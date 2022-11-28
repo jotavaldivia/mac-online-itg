@@ -1,0 +1,26 @@
+.flexRow--global__product__row1{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+/* .flexRow--global__product__row2 {
+    box-shadow: 0px -2px 6px #9394954d;
+    background-color: #F5F5F5;
+    position: fixed;
+    padding: 5px 20px;
+    z-index: 100;
+    bottom: 0;
+    left: 0;
+    right: 0;
+} */
+
+.flexRow--global__product__row2 {
+    width: 100%;
+    position: fixed;
+    z-index: 5;
+    bottom:0;
+    background-color: white;
+
+}
+
+
