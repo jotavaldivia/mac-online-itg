@@ -4,3 +4,11 @@
     --third-color    : #007CB7;
     --fourth-color   : #333333;
 }
+:global(.vtex-minicart-2-x-minicartQuantityBadgeDefault){
+    background-color: #007CB7;
+    margin-top: 2rem;
+}
+
+:global(.vtex-login-2-x-loginOptionsContainer) :global(.vtex-button):hover{
+background-color: white;
+}

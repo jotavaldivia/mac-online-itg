@@ -9,9 +9,68 @@
             "productList":{
                 "maxItems:":10,
                 "itemsPerPage":10,
+                 "minItemsPerPage":10,
                 "titleText":"",
                 "arrows":false,
-                "gap":"ph3"
+                "gap":"ph3",
+                "blockClass":"shelf__mac"
+
+            }
+        }
+    },
+    "shelf#mobile__mac1": {
+        "blocks": [
+            "product-summary.shelf#global__mac__product"
+        ],
+        "props":{
+            "order":"OrderByTopSaleDESC",
+            "paginationDotsVisibility" :"",
+            "productList":{
+                "maxItems:":3,
+                "itemsPerPage":3,
+                "minItemsPerPage":3,
+                "titleText":"",
+                "arrows":false,
+                "gap":"ph3",
+                "blockClass":"shelf__mac"
+
+            }
+        }
+    },
+    "shelf#mobile__mac2": {
+        "blocks": [
+            "product-summary.shelf#global__mac__product"
+        ],
+        "props":{
+            "order":"OrderByTopSaleDESC",
+            "paginationDotsVisibility" :"",
+            "productList":{
+                "maxItems:":3,
+                "itemsPerPage":3,
+                "minItemsPerPage":3,
+                "titleText":"",
+                "arrows":false,
+                "gap":"ph3",
+                "blockClass":"shelf__mac"
+
+            }
+        }
+    },
+    "shelf#mobile__mac3": {
+        "blocks": [
+            "product-summary.shelf#global__mac__product"
+        ],
+        "props":{
+            "order":"OrderByTopSaleDESC",
+            "paginationDotsVisibility" :"",
+            "productList":{
+                "maxItems:":3,
+                "itemsPerPage":3,
+                "minItemsPerPage":3,
+                "titleText":"",
+                "arrows":false,
+                "gap":"ph3",
+                "blockClass":"shelf__mac"
 
             }
         }
@@ -26,9 +85,11 @@
             "productList":{
                 "maxItems:":3,
                 "itemsPerPage":3,
+                "minItemsPerPage":3,
                 "titleText":"",
                 "arrows":true,
-                "gap":"ph5"
+                "gap":"ph5",
+                "blockClass":"shelf__mac"
 
             }
         }

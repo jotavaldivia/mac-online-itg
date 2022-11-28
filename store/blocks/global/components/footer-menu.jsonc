@@ -16,7 +16,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "https://www.maconline.com/t/mac",
+            "href": "/tiendas",
             "noFollow": false,
             "tagTitle": "Tiendas",
             "text": "Tiendas"
@@ -30,7 +30,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "https://www.maconline.com/t/mac",
+            "href": "/preguntas-frecuentes",
             "noFollow": false,
             "tagTitle": "frequentQuestions",
             "text": "Preguntas Frecuentes"
