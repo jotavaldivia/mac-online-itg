@@ -1,0 +1,12 @@
+.caretIcon {
+    width: 40px;
+    height: 40px;
+}
+
+@media (max-width: 1024px) {
+    .caretIcon {
+        width: 25px;
+        height: 25px;
+    }
+
+}
