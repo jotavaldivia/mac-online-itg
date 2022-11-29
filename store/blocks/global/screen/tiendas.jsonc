@@ -15,11 +15,13 @@
         }
     },
     "flex-layout.row#tiendas__row2": {
+        "title": "contenedor del mapa",
         "children": [
             "iframe#tiendas__iframe__map"
         ]
     },
     "iframe#tiendas__iframe__map": {
+        "title": "mapa",
         "props": {
             "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26009.301294872443!2d-71.6713675637377!3d-35.426000365869996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9665c6a2ac07d07d%3A0x265657feafdac8b8!2sTalca%2C%20Maule!5e0!3m2!1ses!2scl!4v1669300260743!5m2!1ses!2scl",
             "width": "1200px",

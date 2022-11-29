@@ -1,0 +1,19 @@
+.container--pdp__description--text{
+max-width: 1200px;
+margin: 0 auto;
+font-size: 0.8rem;
+margin-bottom: 2rem;
+}
+
+.headingLevel4--pdp__description--text {
+    color: rgb(177, 176, 174);
+}
+
+.paragraph--pdp__description--text{
+    color: rgb(177, 176, 174);
+}
+
+.listItem--pdp__description--text{
+line-height: 20px;
+color: rgb(177, 176, 174);
+}
