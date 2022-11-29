@@ -32,39 +32,85 @@
     }
   },
   "tab-content.item#technology": {
-    "children": ["info-card#global__container__lastentries__technology-1"],
+    "children": [
+      "info-card#global__container__lastentries__technology-1"
+    ],
     "props": {
       "tabId": "Technology"
     }
   },
   "tab-content.item#lifestyle": {
-    "children": [ "info-card#global__container__lastentries__lifestyle-1"],
+    "children": [
+      "info-card#global__container__lastentries__lifestyle-1"
+    ],
     "props": {
       "tabId": "Lifestyle"
     }
   },
   "tab-content.item#entertainment": {
-    "children": [ "info-card#global__container__lastentries__entertainment-1"],
+    "children": [
+      "info-card#global__container__lastentries__entertainment-1"
+    ],
     "props": {
       "tabId": "Entertainment"
     }
   },
   "tab-content.item#financialEducation": {
-    "children": [ "info-card#global__container__lastentries__financialEducation-1"],
+    "children": [
+      "info-card#global__container__lastentries__financialEducation-1"
+    ],
     "props": {
       "tabId": "FinancialEducation"
     }
   },
   "tab-content.item#apps": {
-    "children": [ "info-card#global__container__lastentries__apps-1"],
+    "children": [
+      "info-card#global__container__lastentries__apps-1"
+    ],
     "props": {
       "tabId": "Apps"
     }
   },
   "tab-content.item#fitnessHealth": {
-    "children": [ "info-card#global__container__lastentries__fitnessHealth-1"],
+    "children": [
+      "info-card#global__container__lastentries__fitnessHealth-1"
+    ],
     "props": {
       "tabId": "FitnessHealth"
+    }
+  },
+  // pdp
+  "tab-content#global_pdp": {
+    "children": [
+      "tab-content.item#pdp__descriptions",
+      "tab-content.item#pdp__data-sheet",
+      "tab-content.item#pdp__warranty"
+    ]
+  },
+  "tab-content.item#pdp__descriptions": {
+    "children": [
+      // "rich-text#pdp__description--text"
+      "product-description"
+    ],
+    "props": {
+      "tabId": "pdpdescriptions"
+    }
+  },
+  "tab-content.item#pdp__data-sheet": {
+    "children": [
+      "product-specifications"
+    ],
+    "props": {
+      "tabId": "datasheet"
+    }
+  },
+  "tab-content.item#pdp__warranty": {
+    "children": [
+    //  "questions-and-answers"
+    "product-reviews"
+    ],
+    "props": {
+      "tabId": "Garantia"
     }
   }
 }

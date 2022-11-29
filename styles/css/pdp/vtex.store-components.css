@@ -1,0 +1,14 @@
+.productDescriptionContainer {
+    margin-left: 3rem;
+    margin-bottom: 2rem;
+}
+
+.currencyContainer {
+    color: #005A9C;
+}
+
+@media (max-width: 1024px) {
+    .productBrand {
+        font-size: 1rem;
+    }
+}

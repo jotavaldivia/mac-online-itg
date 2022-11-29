@@ -91,21 +91,28 @@
   "tab-layout#global__pdp": {
     "title": "contenedor para la lista de entradas",
     "children": [
-      "tab-list.item#pdp__descriptions",
-      "tab-list.item#pdp__data-sheet",
-      "tab-list.item#pdp__warranty",
-      "tab-list.item#pdp__price-history"
-
+      "tab-list#global__pdp__list",
+      "tab-content#global_pdp"
     ],
     "props": {
       "blockClass": "global__pdp",
-      "defaultActiveTabId": "All"
+      "defaultActiveTabId": "pdpdescriptions"
+    }
+  },
+  "tab-list#global__pdp__list": {
+    "children": [
+      "tab-list.item#pdp__descriptions",
+      "tab-list.item#pdp__data-sheet",
+      "tab-list.item#pdp__warranty"
+    ],
+    "props": {
+      "blockClass":"global__pdp__list"
     }
   },
   "tab-list.item#pdp__descriptions": {
     "title": "Descripción",
     "props": {
-      "tabId": "Descripción",
+      "tabId": "pdpdescriptions",
       "label": "Descripción",
       "defaultActiveTab": true,
       "blockClass": "global__pdp__tab-layout"
@@ -114,27 +121,18 @@
   "tab-list.item#pdp__data-sheet": {
     "title": "Ficha Técnica",
     "props": {
-      "tabId": "Ficha Técnica",
+      "tabId": "datasheet",
       "label": "Ficha Técnica",
-      "defaultActiveTab": true,
+      "defaultActiveTab": false,
       "blockClass": "global__pdp__tab-layout"
     }
   },
   "tab-list.item#pdp__warranty": {
-    "title": "Garantía",
+    "title": "comentarios",
     "props": {
-      "tabId": "Garantía",
-      "label": "Garantía",
-      "defaultActiveTab": true,
-      "blockClass": "global__pdp__tab-layout"
-    }
-  },
-  "tab-list.item#pdp__price-history": {
-    "title": "Historial de precios",
-    "props": {
-      "tabId": "Historial de precios",
-      "label": "Historial de precios",
-      "defaultActiveTab": true,
+      "tabId": "Garantia",
+      "label": "Comentarios",
+      "defaultActiveTab": false,
       "blockClass": "global__pdp__tab-layout"
     }
   }

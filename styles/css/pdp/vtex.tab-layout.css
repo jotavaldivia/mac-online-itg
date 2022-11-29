@@ -1,5 +1,6 @@
 .container--global__pdp {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     margin-top: 2rem;
 }
@@ -28,7 +29,20 @@
     max-height: 60px;
 }
 
-.container--global__pdp {
+.listContainer--global__pdp__list {
     border-bottom: 2px solid #005A9C;
     margin-bottom: 2rem;
 }
+
+@media (max-width: 1024px) {
+    .listItem--global__pdp__tab-layout :global(.vtex-button) {
+        background-color: white;
+        border: 0px;
+        color: #666;
+        font-size: 1rem;
+        text-transform: capitalize;
+        margin: 10px 10px;
+    
+    }
+}
+
