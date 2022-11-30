@@ -1,6 +1,7 @@
 {
   "store.home": {
     "blocks": [
+      "whatsapp-button",
       "rich-text#global__headband--store",
       "responsive-layout.desktop",
       "responsive-layout.tablet",
