@@ -6,11 +6,12 @@
         ]
     },
     "flex-layout.row#mobile__frequent-questions__row1": {
+        "title": "mobile contenedor texto preguntas frecuentes",
         "children": [
-            "flex-layout.row#mobile__frequent-questions__row1__col1"
+            "flex-layout.col#mobile__frequent-questions__row1__col1"
         ]
     },
-    "flex-layout.row#mobile__frequent-questions__row1__col1": {
+    "flex-layout.col#mobile__frequent-questions__row1__col1": {
         "children": [
             
             "disclosure-layout#mobile__frequent-questions1",
@@ -20,7 +21,8 @@
             "disclosure-layout#mobile__frequent-questions5"
         ],
         "props": {
-            "blockClass": "mobile__frequent-questions__row1__col1"
+            "blockClass": "mobile__frequent-questions__row1__col1",
+            "width":"100%"
         }
     },
     "disclosure-layout#mobile__frequent-questions1": {

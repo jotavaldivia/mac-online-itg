@@ -43,9 +43,17 @@
     }
   },
   "flex-layout.row#minicart__footer": {
+    "children": [ "flex-layout.col#minicart__footer"],
+    "props": {
+      "blockClass": "minicart__footer",
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#minicart__footer": {
     "children": ["minicart-summary", "minicart-checkout-button"],
     "props": {
-      "blockClass": "minicart__footer"
+      "blockClass": "minicart__footer__row__col",
+      "width":"100%"
     }
   }
 }
