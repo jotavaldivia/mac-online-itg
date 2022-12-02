@@ -2,6 +2,7 @@
   "store.home": {
     "blocks": [
       "whatsapp-button",
+      "list-context.bullets-diagramation",
       "rich-text#global__headband--store",
       "responsive-layout.desktop",
       "responsive-layout.tablet",
@@ -14,6 +15,19 @@
       "logo": "assets/images/logo_wsp.png",
       "phone": "+5687383833",
       "message": "hola como estas"
+    }
+  },
+  "list-context.bullets-diagramation":{
+    "props":{
+      "bullets":[
+        {
+        "image":"mi-imagen.png",
+        "titleBullet":"computadores",
+        "link": {
+          "url":"http://"
+        }
+      }
+    ]
     }
   },
   "responsive-layout.desktop": {
