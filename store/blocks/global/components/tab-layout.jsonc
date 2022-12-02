@@ -1,7 +1,10 @@
 {
   "tab-layout#global__container__lastentries__row2__col1--menu": {
     "title": "contenedor para la lista de entradas",
-    "children": ["tab-list#global__lastentries__tablist","tab-content#All"],
+    "children": [
+      "tab-list#global__lastentries__tablist",
+      "tab-content#All"
+    ],
     "props": {
       "blockClass": "global__container__lastentries__row2__col1--menu",
       "defaultActiveTabId": "All"
@@ -82,6 +85,55 @@
       "tabId": "FitnessHealth",
       "label": "Fitness & Health",
       "blockClass": "gobal__lastentries__tablist-item"
+    }
+  },
+  // tab layout para pdp
+  "tab-layout#global__pdp": {
+    "title": "contenedor para la lista de entradas",
+    "children": [
+      "tab-list#global__pdp__list",
+      "tab-content#global_pdp"
+    ],
+    "props": {
+      "blockClass": "global__pdp",
+      "defaultActiveTabId": "pdpdescriptions"
+    }
+  },
+  "tab-list#global__pdp__list": {
+    "children": [
+      "tab-list.item#pdp__descriptions",
+      "tab-list.item#pdp__data-sheet",
+      "tab-list.item#pdp__warranty"
+    ],
+    "props": {
+      "blockClass":"global__pdp__list"
+    }
+  },
+  "tab-list.item#pdp__descriptions": {
+    "title": "Descripción",
+    "props": {
+      "tabId": "pdpdescriptions",
+      "label": "Descripción",
+      "defaultActiveTab": true,
+      "blockClass": "global__pdp__tab-layout"
+    }
+  },
+  "tab-list.item#pdp__data-sheet": {
+    "title": "Ficha Técnica",
+    "props": {
+      "tabId": "datasheet",
+      "label": "Ficha Técnica",
+      "defaultActiveTab": false,
+      "blockClass": "global__pdp__tab-layout"
+    }
+  },
+  "tab-list.item#pdp__warranty": {
+    "title": "comentarios",
+    "props": {
+      "tabId": "Garantia",
+      "label": "Comentarios",
+      "defaultActiveTab": false,
+      "blockClass": "global__pdp__tab-layout"
     }
   }
 }

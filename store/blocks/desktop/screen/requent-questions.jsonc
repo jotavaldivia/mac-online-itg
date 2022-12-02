@@ -6,7 +6,7 @@
         ]
     },
     "flex-layout.row#frequent-questions__row1": {
-        "title": "contenedor texto preguntas frecuentes",
+        "title": "desktop contenedor texto preguntas frecuentes",
         "children": [
             "flex-layout.row#frequent-questions__row1__col1"
         ],

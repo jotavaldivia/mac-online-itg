@@ -10,3 +10,11 @@ flex-direction: column;
 flex-direction: column;
 padding: 10px;
 }
+
+.flexRowContent--mobile__frequent-questions__row1__col1{
+ flex-direction: column;
+}
+
+.flexColChild--mobile__frequent-questions__row1__col1{
+    cursor: pointer;
+}

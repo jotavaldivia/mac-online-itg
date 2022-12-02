@@ -1,0 +1,108 @@
+{
+    "responsive-layout.mobile#mac": {
+        "children": [
+            "flex-layout.row#mobile__mac__row1",
+            "flex-layout.row#mobile__mac__row2",
+            "flex-layout.row#mobile__mac__row3",
+            "flex-layout.row#mobile__mac__row4",
+            "flex-layout.row#mobile__mac__row5"
+        ]
+    },
+    "flex-layout.row#mobile__mac__row1": {
+        "children": [
+            "flex-layout.col#mobile__mac__row1__col1",
+            "flex-layout.col#mobile__mac__row1__col2"
+        ],
+        "props": {
+            "blockClass": "mobile__mac__row1"
+        }
+    },
+    "flex-layout.col#mobile__mac__row1__col1": {
+        "children": [
+            "rich-text#global__mac--title"
+        ],
+        "props": {
+            "blockClass": "global__mac__row1_col1"
+        }
+    },
+    "flex-layout.col#mobile__mac__row1__col2": {
+        "children": [
+            "rich-text#global__mac--breadCrumb"
+        ],
+        "props": {
+            "blockClass": "global__mac__row1_col2"
+        }
+    },
+    "flex-layout.row#mobile__mac__row2": {
+        "children": [
+            "flex-layout.col#mobile__mac__row2__col1"
+        ],
+        "props": {
+            "fullWidth": true,
+            "blockClass": "mobile__mac__row2"
+        }
+    },
+    "flex-layout.col#mobile__mac__row2__col1": {
+        "children": [
+            "slider-layout#global__mac__silder-1"
+        ],
+        "props": {
+            "blockClass": "global__mac__row2_col1"
+        }
+    },
+    "flex-layout.row#mobile__mac__row3": {
+        "children": [
+            "flex-layout.col#mobile__mac__row3__col1"
+        ],
+        "props": {
+            "fullWidth": true,
+            "blockClass": "mobile__mac__row3"
+        }
+    },
+    "flex-layout.col#mobile__mac__row3__col1": {
+        "children": [
+            "shelf#mobile__mac1",
+            "shelf#mobile__mac2",
+            "shelf#mobile__mac3"
+        ],
+        "props": {
+            "blockClass": "mobile__mac__row3_col1"
+        }
+    },
+    "flex-layout.row#mobile__mac__row4": {
+        "children": [
+            "flex-layout.col#mobile__mac__row4__col1"
+        ],
+        "props": {
+            "fullWidth": true,
+            "blockClass": "mobile__mac__row4"
+        }
+    },
+    "flex-layout.col#mobile__mac__row4__col1": {
+        "children": [
+            "shelf#mac-recommended"
+        ],
+        "props": {
+            "blockClass": "mobile__mac__row4_col1"
+        }
+    },
+    "flex-layout.row#mobile__mac__row5": {
+        "children": [
+            "flex-layout.col#mobile__mac__row5__col1"
+        ],
+        "props": {
+            "blockClass": "mobile__mac__row5",
+            "fullWidth": true
+        }
+    },
+    "flex-layout.col#mobile__mac__row5__col1": {
+        "children": [
+            "image#global__mac__footer--img3",
+            "image#global__mac__footer--img2",
+            "image#global__mac__footer--img1"
+        ],
+        "props": {
+            "blockClass": "mobile__mac__row5_col1"
+        }
+    }
+}

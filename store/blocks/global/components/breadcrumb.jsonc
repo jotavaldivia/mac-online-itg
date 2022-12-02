@@ -2,7 +2,7 @@
     "breadcrumb.search#global__breadcrumb--plp":{
         "title": "miga de pan de la plp"
     },
-    "breadcrumb.search#global__breadcrumb--pdp":{
+    "breadcrumb#global__breadcrumb--pdp":{
         "title": "miga de pan de la pdp"
     }
 }
