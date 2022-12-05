@@ -2,11 +2,11 @@
   "store.home": {
     "blocks": [
       "whatsapp-button",
-      "list-context.bullets-diagramation",
       "rich-text#global__headband--store",
       "responsive-layout.desktop",
       "responsive-layout.tablet",
-      "responsive-layout.phone"
+      "responsive-layout.phone",
+      "list-context.bullets-diagramation#new"
       // "search-result-layout.customQuery#gloabl_search"
     ]
   },
@@ -17,17 +17,86 @@
       "message": "hola como estas"
     }
   },
-  "list-context.bullets-diagramation":{
-    "props":{
-      "bullets":[
+  "list-context.bullets-diagramation#new": {
+    "title": "mi contexto de lista de bullets",
+    "children":["slider-layout#bullet-group"],
+    "props": {
+      "bullets": [
         {
-        "image":"mi-imagen.png",
-        "titleBullet":"computadores",
-        "link": {
-          "url":"http://"
+          "image": "assets/images/macbook_pro.jfif",
+          "titleBullet": "Mac",
+          "link": {
+            "url": "http://www.google.cl"
+          }
+        },
+        {
+          "image": "assets/images/iphone-14-pro.png",
+          "titleBullet": "Iphone",
+          "link": {
+            "url": "http://www.google.cl"
+          }
+        },
+        {
+          "image": "assets/images/gps-lte.png",
+          "titleBullet": "Watch",
+          "link": {
+            "url": "http://www.google.cl"
+          }
+        },
+        {
+          "image": "assets/images/gps-lte.png",
+          "titleBullet": "Watch",
+          "link": {
+            "url": "http://www.google.cl"
+          }
+        },
+        {
+          "image": "assets/images/gps-lte.png",
+          "titleBullet": "Watch",
+          "link": {
+            "url": "http://www.google.cl"
+          }
+        },
+        {
+          "image": "assets/images/gps-lte.png",
+          "titleBullet": "Watch",
+          "link": {
+            "url": "http://www.google.cl"
+          }
+        },
+        {
+          "image": "assets/images/gps-lte.png",
+          "titleBullet": "Watch",
+          "link": {
+            "url": "http://www.google.cl"
+          }
+        },
+        {
+          "image": "assets/images/gps-lte.png",
+          "titleBullet": "Watch",
+          "link": {
+            "url": "http://www.google.cl"
+          }
+        },
+        {
+          "image": "assets/images/gps-lte.png",
+          "titleBullet": "Watch",
+          "link": {
+            "url": "http://www.google.cl"
+          }
         }
-      }
-    ]
+      ]
+    }
+  },
+  "slider-layout#bullet-group":{
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 5,
+        "mobile": 9
+      },
+      "infinite": true,
+      "showNavigationArrows": "always"
     }
   },
   "responsive-layout.desktop": {
