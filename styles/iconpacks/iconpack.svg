@@ -285,16 +285,17 @@
       <path d="M7.26254 2.80524C7.65892 2.37243 8.34108 2.37243 8.73746 2.80525L16 10.7353L13.9259 13L8 6.52941L2.07407 13L0 10.7353L7.26254 2.80524Z" fill="currentColor"/>
     </g>
     <g id="nav-thin-caret--left">
-<circle cx="8" cy="8" r="7.5" stroke="#B6B5B5"/>
+<!-- <circle cx="8" cy="8" r="7.5" stroke="#B6B5B5"/>
 <line y1="-0.5" x2="8.25117" y2="-0.5" transform="matrix(-0.802969 0.596021 -0.458679 -0.888602 9.99387 2.66666)" stroke="#B6B5B5"/>
-<line y1="-0.5" x2="8.34007" y2="-0.5" transform="matrix(-0.763328 -0.646011 0.507208 -0.861824 10.1053 12.9433)" stroke="#B6B5B5"/>
-
+<line y1="-0.5" x2="8.34007" y2="-0.5" transform="matrix(-0.763328 -0.646011 0.507208 -0.861824 10.1053 12.9433)" stroke="#B6B5B5"/> -->
+ <path d="M11 1L4 8L11 15" stroke="#333" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
  </g>
     <g id="nav-thin-caret--right">
-<circle cx="8" cy="8" r="7.5" stroke="#B6B5B5"/>
+<!-- <circle cx="8" cy="8" r="7.5" stroke="#B6B5B5"/>
 <line y1="-0.5" x2="8.35161" y2="-0.5" transform="matrix(0.813848 -0.58018 0.456936 0.890007 6.00824 12.944)" stroke="#B6B5B5"/>
 <line y1="-0.5" x2="8.43187" y2="-0.5" transform="matrix(0.763052 0.647171 -0.52245 0.852103 5.99338 2.66666)" stroke="#B6B5B5"/>
-      
+       -->
+       <path d="M5 15L12 8L5 1" stroke="#333" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
     
     </g>
     <g id="nav-arrow--left">

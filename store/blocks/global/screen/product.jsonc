@@ -43,7 +43,8 @@
             "vtex.store-components:sku-selector",
             "product-rating-summary",
             "product-installments",
-            "vtex.store-components:shipping-simulator"
+            "vtex.store-components:shipping-simulator",
+            "add-to-cart-info"
         ],
         "props": {
             "blockClass":"global__product__row1__col2"
