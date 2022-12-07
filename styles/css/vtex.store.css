@@ -1,14 +1,32 @@
 :global(.vtex-store__template) {
-    --primary-color  : #2C2C2C;
+    --primary-color: #2C2C2C;
     --secundary-color: #FFFFFF;
-    --third-color    : #007CB7;
-    --fourth-color   : #333333;
+    --third-color: #007CB7;
+    --fourth-color: #333333;
 }
-:global(.vtex-minicart-2-x-minicartQuantityBadgeDefault){
+
+:global(.vtex-minicart-2-x-minicartQuantityBadgeDefault) {
     background-color: #007CB7;
     margin-top: 2rem;
 }
 
-:global(.vtex-login-2-x-loginOptionsContainer) :global(.vtex-button):hover{
-background-color: white;
+:global(.vtex-login-2-x-loginOptionsContainer) :global(.vtex-button):hover {
+    background-color: white;
+}
+
+:global(.vtex-minicart-2-x-minicartCheckoutButton) :global(.vtex-button__label) {
+    visibility: hidden;
+}
+
+:global(.vtex-minicart-2-x-minicartCheckoutButton) :global(.vtex-button__label)::after {
+    visibility: visible;
+    content: "IR AL CARRITO";
+   position: absolute;
+}
+
+:global(.vtex-slider-layout-0-x-sliderRightArrow):hover,:global(.vtex-slider-layout-0-x-sliderLeftArrow):hover{
+    height: 40px;
+    background: #d7d4d4 !important;
+    transition: all 0.6s ease-in-out;
+    border-radius: 50px;
 }
