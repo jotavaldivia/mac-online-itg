@@ -52,6 +52,18 @@
   font-weight: 300;
 }
 
+.submenuWrapper--global__category--isOpen {
+  visibility: hidden !important;
+  opacity: 0 !important;
+  transition: all ease 2s;
+  position: absolute !important;
+}
+
+.menuItem:hover .submenuWrapper--global__category--isOpen {
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
 /* estilos menu mobile y desktop */
 @media (max-width: 1024px) {
   .menuContainer--global__websites {
@@ -99,7 +111,7 @@
     margin-top: 0rem;
   }
 
-  .submenuAccordion{
+  .submenuAccordion {
     height: calc(100% - 63px);
     overflow-y: auto
   }

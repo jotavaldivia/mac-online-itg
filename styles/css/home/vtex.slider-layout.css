@@ -1,3 +1,13 @@
 .paginationDot--carousel--isActive {
     background-color: #007cb7;
 }
+
+.bullet__item--title{
+    text-align: center;
+    text-decoration: none;
+    color: gray;
+}
+.bullet__item--link {
+    text-decoration: none;
+    color: gray;
+}
