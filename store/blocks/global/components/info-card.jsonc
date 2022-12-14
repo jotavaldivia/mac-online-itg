@@ -12,8 +12,8 @@
       "callToActionUrl": "/sale/d",
       "blockClass": "global__info-card",
       "textAlignment": "center",
-      "linkTarget": "www.google.cl",
-      "imageActionUrl": "www.google.cl"
+      "linkTarget": "/puerta-triplex-okume/p",
+      "imageActionUrl": "/puerta-triplex-okume/p"
     }
   },
   "info-card#global__info-card2": {
@@ -29,8 +29,8 @@
       "callToActionUrl": "/sale/d",
       "blockClass": "global__info-card",
       "textAlignment": "center",
-      "linkTarget": "www.google.cl",
-      "imageActionUrl": "www.google.cl"
+      "linkTarget": "/zapatos-vans-url/p",
+      "imageActionUrl": "/zapatos-vans-url/p"
     }
   },
   "info-card#global__info-card3": {
@@ -46,8 +46,8 @@
       // "callToActionUrl": "/sale/d",
       "blockClass": "global__info-card",
       "textAlignment": "center",
-      "linkTarget": "www.google.cl",
-      "imageActionUrl": "www.google.cl"
+      "linkTarget": "/sol/p",
+      "imageActionUrl": "/sol/p"
     }
   },
   // info cards para tab layout ultimas entradas
@@ -79,8 +79,8 @@
         "global__container__lastentries__info-card"
       ],
       "textAlignment": "center",
-      "linkTarget": "www.google.cl",
-      "imageActionUrl": "www.google.cl"
+      "linkTarget": "/ladrillo-estructural-prensado-salmon-245x12x6cm/p",
+      "imageActionUrl": "/ladrillo-estructural-prensado-salmon-245x12x6cm/p"
     }
   },
   "info-card#global__container__lastentries__all-3": {
@@ -95,8 +95,8 @@
         "global__container__lastentries__info-card"
       ],
       "textAlignment": "center",
-      "linkTarget": "www.google.cl",
-      "imageActionUrl": "www.google.cl"
+      "linkTarget": "/cemento-argos-gris-50kg/p",
+      "imageActionUrl": "/cemento-argos-gris-50kg/p"
     }
   },
   "info-card#global__container__lastentries__productivity-1": {
@@ -111,8 +111,8 @@
         "global__container__lastentries__info-card"
       ],
       "textAlignment": "center",
-      "linkTarget": "www.google.cl",
-      "imageActionUrl": "www.google.cl"
+      "linkTarget": "/cemento-argos-gris-50kg/p",
+      "imageActionUrl": "/cemento-argos-gris-50kg/p"
     }
   },
   "info-card#global__container__lastentries__productivity-2": {
@@ -127,8 +127,8 @@
         "global__container__lastentries__info-card"
       ],
       "textAlignment": "center",
-      "linkTarget": "www.google.cl",
-      "imageActionUrl": "www.google.cl"
+      "linkTarget": "/cemento-argos-gris-50kg/p",
+      "imageActionUrl": "/cemento-argos-gris-50kg/p"
     }
   },
   "info-card#global__container__lastentries__productivity-3": {
@@ -143,8 +143,8 @@
         "global__container__lastentries__info-card"
       ],
       "textAlignment": "center",
-      "linkTarget": "www.google.cl",
-      "imageActionUrl": "www.google.cl"
+      "linkTarget": "/cemento-argos-gris-50kg/p",
+      "imageActionUrl": "/cemento-argos-gris-50kg/p"
     }
   },
   "info-card#global__container__lastentries__technology-1": {
@@ -159,8 +159,8 @@
         "global__container__lastentries__info-card"
       ],
       "textAlignment": "center",
-      "linkTarget": "www.google.cl",
-      "imageActionUrl": "www.google.cl"
+      "linkTarget": "/zapatos-vans-url/p",
+      "imageActionUrl": "/zapatos-vans-url/p"
     }
   },
   "info-card#global__container__lastentries__lifestyle-1": {
@@ -175,8 +175,8 @@
         "global__container__lastentries__info-card"
       ],
       "textAlignment": "center",
-      "linkTarget": "www.google.cl",
-      "imageActionUrl": "www.google.cl"
+      "linkTarget": "/zapatos-vans-url/p",
+      "imageActionUrl": "/zapatos-vans-url/p"
     }
   },
   "info-card#global__container__lastentries__entertainment-1": {
@@ -191,8 +191,8 @@
         "global__container__lastentries__info-card"
       ],
       "textAlignment": "center",
-      "linkTarget": "www.google.cl",
-      "imageActionUrl": "www.google.cl"
+      "linkTarget": "/zapatos-vans-url/p",
+      "imageActionUrl": "/zapatos-vans-url/p"
     }
   },
   "info-card#global__container__lastentries__financialEducation-1": {
@@ -207,8 +207,8 @@
         "global__container__lastentries__info-card"
       ],
       "textAlignment": "center",
-      "linkTarget": "www.google.cl",
-      "imageActionUrl": "www.google.cl"
+      "linkTarget": "/zapatos-vans-url/p",
+      "imageActionUrl": "/zapatos-vans-url/p"
     }
   },
   "info-card#global__container__lastentries__apps-1": {
@@ -223,8 +223,8 @@
         "global__container__lastentries__info-card"
       ],
       "textAlignment": "center",
-      "linkTarget": "www.google.cl",
-      "imageActionUrl": "www.google.cl"
+      "linkTarget": "/zapatos-vans-url/p",
+      "imageActionUrl": "/zapatos-vans-url/p"
     }
   },
   "info-card#global__container__lastentries__fitnessHealth-1": {
@@ -239,8 +239,8 @@
         "global__container__lastentries__info-card"
       ],
       "textAlignment": "center",
-      "linkTarget": "www.google.cl",
-      "imageActionUrl": "www.google.cl"
+      "linkTarget": "/zapatos-vans-url/p",
+      "imageActionUrl": "/zapatos-vans-url/p"
     }
   },
   // pagina statica tiendas
