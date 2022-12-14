@@ -9,8 +9,11 @@
           },
           "infinite": true,
           "showNavigationArrows": "always",
-          "blockClass": "carousel",
+          "blockClass": "carousel", 
+          "usePagination": true,
+          "navigationStep": "page",
           "fullWidth":true,
+          "arrowSize": 25,
           "autoplay": {
             "timeout": 4000,
             "stopOnHover": true
