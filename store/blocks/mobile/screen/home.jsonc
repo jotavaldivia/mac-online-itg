@@ -8,7 +8,7 @@
         "phone": 1
       },
       "infinite": true,
-      "showNavigationArrows": "desktopOnly",
+      "showNavigationArrows": "always",
       "blockClass": "carousel",
       "autoplay": {
         "timeout": 3000,
