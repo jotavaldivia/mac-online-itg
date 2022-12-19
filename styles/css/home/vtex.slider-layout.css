@@ -1,4 +1,4 @@
-.paginationDot--carousel--isActive {
+.paginationDot--carousel--isActive,.paginationDot--isActive {
     background-color: #007cb7;
 }
 
@@ -10,4 +10,11 @@
 .bullet__item--link {
     text-decoration: none;
     color: gray;
+}
+.paginationDotsContainer{
+bottom: -2rem;
+}
+
+.sliderLayoutContainer{
+    margin-bottom: 2.5rem;
 }
